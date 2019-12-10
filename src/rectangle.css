@@ -1,0 +1,164 @@
+h1 {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 30px;
+}
+
+h1:before,
+h1:after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 33%;
+    top: 0;
+}
+
+h1:before {
+    right: 0.5em;
+    /* margin-left: -52%; */
+}
+
+h1:after {
+    left: 0.5em;
+    /* margin-right: -50%; */
+}
+
+/*---------SUBTITULO OASIS--------*/
+
+h2 {
+    text-align: center;
+    text-indent: 0;
+    position: fixed;
+    width: 100%;
+    /* align-content: center; */
+    bottom: 1%;
+}
+
+h2:before,
+h2:after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 36.4%;
+}
+
+h2::before {
+    right: 0.5em;
+
+    /* margin-right: 0; */
+    /* margin-left: -52%; */
+}
+
+h2::after {
+    left: 0.5em;
+    /* margin-right: -50%; */
+}
+
+
+/*-------PAGINA PROYECTO--------*/
+.proyecto{
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+.proyecto::before,
+.proyecto::after{
+    background-color: white;
+    widows: 41.5%;
+}
+
+.rectproyecto{
+    width: 80%;
+    position: fixed;
+    margin-left: 10%;
+    top: 77px;
+    height: 81%;
+    border: 1.5px solid white;
+    border-bottom: none;
+    border-top: none;
+}
+
+/*-----PÀGINA REVISTA-------*/
+.revistaoasis{
+    color: rgb(240, 35, 156);
+}
+.revistaoasis::before,
+.revistaoasis::after{
+    background-color: rgb(240, 35, 156);
+}
+
+.rectrevista {
+    width: 80%;
+    position: fixed;
+    margin-left: 10%;
+    top: 74px;
+    height: 81%;
+    border: 1.5px solid rgb(240, 35, 156);
+    border-bottom: none;
+}
+
+/*--------PAGINA EQUIPO-------*/
+.equipo {
+    color: rgb(39, 71, 65);
+    position: fixed;
+}
+
+.equipo::before, .equipo::after{
+    background-color: rgb(39, 71, 65);
+}
+
+.equipo1 {
+    color: rgb(39, 71, 65);
+    position: fixed;
+}
+
+.equipo1::before, .equipo1::after{
+    background-color: rgb(39, 71, 65);
+    width: 40.9%;
+}
+
+.rectequipo{
+    width: 80%;
+    position: fixed;
+    margin-left: 10%;
+    top: 77px;
+    height: 81%;
+    border: 1.5px solid rgb(39, 71, 65);
+    border-bottom: none;
+    border-top: none;
+}
+
+
+/*--------PAGINA COLABORA--------*/
+.colabora1 {
+    color: rgb(88, 22, 22);
+}
+
+.colabora1::before, .colabora1::after{
+    background-color: rgb(88, 22, 22);
+    width: 39%;
+}
+
+.colabora2 {
+    color: rgb(88, 22, 22);
+}
+
+.colabora2::before, .colabora2::after{
+    background-color: rgb(88, 22, 22);
+}
+
+.rectcolab{
+    width: 80%;
+    position: fixed;
+    margin-left: 10%;
+    top: 77px;
+    height: 81%;
+    border: 1.5px solid rgb(88, 22, 22);
+    border-bottom: none;
+    border-top: none;
+}
