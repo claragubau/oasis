@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBar from '../Navbar/NavBar'
+import NavBar from '../NavBar/NavBar'
+
 
 function Colabora(){
     return(

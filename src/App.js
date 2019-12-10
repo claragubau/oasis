@@ -1,27 +1,35 @@
 import React from 'react';
-import Proyecto from './Components/Proyecto/Proyecto'
-import Equipo from './Components/Equipo/Equipo'
-import Colabora from './Components/Colabora/Colabora'
-import Home from './Components/Home/Home'
 import {Route, Switch, BrowserRouter} from 'react-router-dom'
-import Revista from './Components/Revista/Revista';
-import NavBar from './Components/Navbar/NavBar';
-import Prova from './Components/Prova/Prova'
 
+//lazy loading the components
+
+const Equipo = React.lazy(() => import('./Components/Equipo/Equipo'));
+const Colabora = React.lazy(() => import('./Components/Colabora/Colabora')); 
+const Home = React.lazy(() => import('./Components/Home/Home'));
+const Prova = React.lazy(() => import('./Components/Prova/Prova'));
+const Proyecto = React.lazy(() => import('./Components/Proyecto/Proyecto'));
+const Revista = React.lazy(() => import('./Components/Revista/Revista'))
+const NavBar = React.lazy(() => import('./Components/NavBar/NavBar'))
+const renderLoader = () => <div className="loader"></div>;
 
 function App() {
+  //TODO: en el fallback pots posar algu per si tardés a carregar alguna pagina tipus un spinner
   return (   
+    <React.Suspense fallback={<div></div>}> 
     <div>
       <NavBar/> 
+      <BrowserRouter>
       <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/equipo" component={Equipo}/>
-      <Route exact path="/colabora" component={Colabora}/>
-      <Route exact path="/revista" component={Revista}/>
-      <Route exact path="/proyecto" component={Proyecto}/>
-      <Route exact path="/prova" component = {Prova}/>
+      <Route path="/" exact component={Home}/>
+      <Route path="/equipo" exact component={Equipo}/>
+      <Route path="/colabora" exact component={Colabora}/>
+      <Route path="/revista" exact component={Revista}/>
+      <Route path="/proyecto" exact component={Proyecto}/>
+      <Route path="/prova" exact component = {Prova}/>
       </Switch>
+      </BrowserRouter>
     </div>
+    </React.Suspense>
   );
 }
 

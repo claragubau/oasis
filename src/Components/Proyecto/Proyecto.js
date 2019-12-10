@@ -1,6 +1,7 @@
 import React from 'react'
-import NavBar from '../Navbar/NavBar'
+import NavBar from '../NavBar/NavBar'
 import Random from '../../images/randompic.jpg'
+import './Proyecto.css'
 
 function Proyecto(){
     return(
