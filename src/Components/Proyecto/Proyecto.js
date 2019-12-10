@@ -1,12 +1,10 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar'
 import Random from '../../images/randompic.jpg'
 import './Proyecto.css'
 
 function Proyecto(){
     return(
         <div className="backproyecto">
-            <NavBar/> 
             <h1 className="proyecto">Proyecto</h1>
             <h2 className="proyecto">OASIS</h2>
             <div className="rectproyecto"></div>
