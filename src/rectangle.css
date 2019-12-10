@@ -49,14 +49,10 @@ h2:after {
 
 h2::before {
     right: 0.5em;
-
-    /* margin-right: 0; */
-    /* margin-left: -52%; */
 }
 
 h2::after {
     left: 0.5em;
-    /* margin-right: -50%; */
 }
 
 
