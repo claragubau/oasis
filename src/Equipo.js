@@ -9,41 +9,45 @@ import Pau from './images/Pau.gif'
 function Equipo(){
     return(
         <div>
-            <div className="grid-container">
-                <div className="column">
-                    <div className="row">
-                        {/* <div className="text">
-                            1111111111111
-                        </div> */}
-                        <img src = {David} alt="loading..." className/>
-                    </div>
-                    <div className="row">
-                        <div className="text">
-                            2222222222222
-                        </div>
-                        <img src = {Buke} alt="loading..."/>
-                        <div className="text">
-                            joder222222222222
-                        </div>
-                    </div>
-                </div>
-                <div className="column">
-                    <div className="row">
-                        <img src = {Isi} alt="loading..."/>
-                        <div className="text">
-                            mecaaaaaaaaaaaaaagoen
-                        </div>
-                    </div>
-                    <div className="row"><img src = {Lluis} alt="loading..."/></div>
-                </div>
-                <div className="column">
-                    <div className="row"><img src = {Marta} alt="loading..."/></div>
-                    <div className="row"><img src = {Pau} alt="loading..."/></div>
-                </div>
-            </div>
             {/* <h1 className="equipo1">EQUIPO</h1>
             <h2 className="equipo">OASIS</h2>
             <div className="rectequipo"></div> */}
+            <div className="grid-container">
+                <div className="column">
+                    <div className="row">
+                        <div className="overlay">
+                            <div className="text">DAVID ALSINA</div>
+                            <div className="subtext">nosequefa</div>
+                        </div>
+                        <img src = {David} alt="loading..." className/>
+                    </div>
+                    <div className="row">
+                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <img src = {Buke} alt="loading..."/>
+                    </div>
+                </div>
+                <div className="column">
+                    <div className="row">
+                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <img src = {Isi} alt="loading..."/>
+                    </div>
+                    <div className="row">
+                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <img src = {Lluis} alt="loading..."/>
+                    </div>
+                </div>
+                <div className="column">
+                    <div className="row">
+                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <img src = {Marta} alt="loading..."/>
+                    </div>
+                    <div className="row">
+                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <img src = {Pau} alt="loading..."/>
+                    </div>
+                </div>
+            </div>
+
             <div className="backequipo">
                 Dirección y Guión
                 DAVID ALSINA
