@@ -1,10 +1,11 @@
 import React from 'react'
-import David from './images/David.gif'
-import Buke from './images/Buke.gif'
-import Isi from './images/Isi.gif'
-import Lluis from './images/Lluis.gif'
-import Marta from './images/Marta.gif'
-import Pau from './images/Pau.gif'
+import David from '../../images/David.gif'
+import Buke from '../../images/Buke.gif'
+import Isi from '../../images/Isi.gif'
+import Lluis from '../../images/Lluis.gif'
+import Marta from '../../images/Marta.gif'
+import Pau from '../../images/Pau.gif'
+import './equipo.css'
 
 function Equipo(){
     return(
@@ -17,32 +18,38 @@ function Equipo(){
                     <div className="row">
                         <div className="overlay">
                             <div className="text">DAVID ALSINA</div>
-                            <div className="subtext">nosequefa</div>
+                            <div className="subtext"> ricardo </div>
                         </div>
                         <img src = {David} alt="loading..." className/>
                     </div>
                     <div className="row">
-                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <div className="overlay"><div className="text"> Buke </div> 
+                        <div className="subtext"> ricardo </div>
+                        </div>
                         <img src = {Buke} alt="loading..."/>
                     </div>
                 </div>
                 <div className="column">
                     <div className="row">
-                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <div className="overlay"><div className="text"> Isi </div>
+                        <div className="subtext"> ricardo </div></div>
                         <img src = {Isi} alt="loading..."/>
                     </div>
                     <div className="row">
-                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <div className="overlay"><div className="text"> Lluis </div>
+                        <div className="subtext"> ricardo </div></div>
                         <img src = {Lluis} alt="loading..."/>
                     </div>
                 </div>
                 <div className="column">
                     <div className="row">
-                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <div className="overlay"><div className="text"> Marta </div>
+                        <div className="subtext"> ricardo </div></div>
                         <img src = {Marta} alt="loading..."/>
                     </div>
                     <div className="row">
-                        <div className="overlay"><div className="text">2222222222222</div></div>
+                        <div className="overlay"><div className="text"> Pau </div>
+                        <div className="subtext"> ricardo </div></div>
                         <img src = {Pau} alt="loading..."/>
                     </div>
                 </div>

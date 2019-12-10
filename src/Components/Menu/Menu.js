@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import NavBar from './NavBar'
+import NavBar from '../Navbar/NavBar'
+import './Menu.css';
 
 
 function Menu() {
