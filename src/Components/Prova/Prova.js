@@ -1,5 +1,6 @@
 import React from 'react'
-import David from './images/David.gif'
+import David from '../../images/David.gif'
+import './prova.css'
 
 
 function Prova(){

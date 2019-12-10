@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from './NavBar'
-import Random from './images/randompic.jpg'
+import NavBar from '../Navbar/NavBar'
+import Random from '../../images/randompic.jpg'
 
 function Proyecto(){
     return(

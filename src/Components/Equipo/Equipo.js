@@ -1,10 +1,11 @@
 import React from 'react'
-import David from './images/David.gif'
-import Buke from './images/Buke.gif'
-import Isi from './images/Isi.gif'
-import Lluis from './images/Lluis.gif'
-import Marta from './images/Marta.gif'
-import Pau from './images/Pau.gif'
+import David from '../../images/David.gif'
+import Buke from '../../images/Buke.gif'
+import Isi from '../../images/Isi.gif'
+import Lluis from '../../images/Lluis.gif'
+import Marta from '../../images/Marta.gif'
+import Pau from '../../images/Pau.gif'
+import './equipo.css'
 
 function Equipo(){
     return(

@@ -1,24 +1,26 @@
 import React from 'react';
-import Proyecto from './Proyecto'
-import Equipo from './Equipo'
-import Colabora from './Colabora'
-import Home from './Home'
-import {Route, Link} from 'react-router-dom'
-import Revista from './Revista';
-import NavBar from './NavBar';
-import Prova from './Prova'
+import Proyecto from './Components/Proyecto/Proyecto'
+import Equipo from './Components/Equipo/Equipo'
+import Colabora from './Components/Colabora/Colabora'
+import Home from './Components/Home/Home'
+import {Route, Switch, BrowserRouter} from 'react-router-dom'
+import Revista from './Components/Revista/Revista';
+import NavBar from './Components/Navbar/NavBar';
+import Prova from './Components/Prova/Prova'
 
 
 function App() {
   return (   
     <div>
       <NavBar/> 
+      <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/equipo" component={Equipo}/>
       <Route exact path="/colabora" component={Colabora}/>
       <Route exact path="/revista" component={Revista}/>
       <Route exact path="/proyecto" component={Proyecto}/>
       <Route exact path="/prova" component = {Prova}/>
+      </Switch>
     </div>
   );
 }
