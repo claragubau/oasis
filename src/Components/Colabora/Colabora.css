@@ -1,0 +1,11 @@
+.lefttext{
+    margin-left: 12%;
+    width: 23%;
+    margin-top: 8%;
+}
+
+br{
+    display: block;
+    margin: 5% 0;
+    content: " ";
+}

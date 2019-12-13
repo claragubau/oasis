@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Route, Switch, BrowserRouter} from 'react-router-dom'
 
 //lazy loading the components
@@ -8,15 +8,19 @@ const Colabora = React.lazy(() => import('./Components/Colabora/Colabora'));
 const Home = React.lazy(() => import('./Components/Home/Home'));
 const Proyecto = React.lazy(() => import('./Components/Proyecto/Proyecto'));
 const Revista = React.lazy(() => import('./Components/Revista/Revista'))
-const NavBar = React.lazy(() => import('./Components/NavBar/NavBar'))
+const Menu = React.lazy(() => import('./Components/Menu/Menu'))
+
 const renderLoader = () => <div className="loader"></div>;
 
+
 function App() {
+  
+  
   //TODO: en el fallback pots posar algu per si tardés a carregar alguna pagina tipus un spinner
   return (   
     <React.Suspense fallback={<div></div>}> 
     <div>
-      <NavBar/> 
+      <Menu/>
       <BrowserRouter>
       <Switch>
       <Route path="/" exact component={Home}/>
@@ -30,5 +34,4 @@ function App() {
     </React.Suspense>
   );
 }
-
 export default App;

@@ -1,24 +1,67 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-import NavBar from '../Navbar/NavBar'
-import './Menu.css';
+import React, {Component} from 'react';
+import { HamburgerButton } from 'react-hamburger-button';
+import './Menu.css'
 
+class Menu extends Component{ 
 
-function Menu() {
-  return (
-    <div className="menu">Menu
-      {/* <ul>
-        <li>
-          <a id="root"></a>
-          <Link to="/">Home</Link>
-          <Link to="/proyecto">Proyecto</Link>
-          <Link to="/revista">Revista</Link>
-          <Link to="/equipo">Equipo</Link>
-          <Link to="/colabora">Colabora</Link>
-        </li>
-      </ul> */}
-    </div>
-  );
+    constructor() {
+        super();
+        this.state = { open: false};
+    }
+
+    handleClick = () => {
+        this.setState({
+            open: !this.state.open
+        });       
+        console.log(this.state)
+    }
+
+    showMenu(){
+        return <div class="overlay">
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/proyecto">Proyecto</a></li>
+                        <li><a href="/revista">Revista</a></li>
+                        <li><a href="/equipo">Equipo</a></li>
+                        <li><a href="/colabora">Colabora</a></li>
+                    </ul>
+                </nav>      
+            </div>
+    }
+
+    hideMenu(){
+        return <div class="overlay" style={{visibility:"hidden"}}>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/proyecto">Proyecto</a></li>
+                        <li><a href="/revista">Revista</a></li>
+                        <li><a href="/equipo">Equipo</a></li>
+                        <li><a href="/colabora">Colabora</a></li>
+                    </ul>
+                </nav>      
+            </div>
+
+    }
+
+    render() {
+        return (    
+        <div>
+            <div style={{display:"flex", position:"relative", justifyContent:"center", marginTop:"1em"}}>
+            <HamburgerButton
+                open={this.state.open}
+                onClick={this.handleClick}
+                width={23}
+                height={18}
+                strokeWidth={1}
+                color='black'
+                animationDuration={0.5}
+                style={{margin:"0 auto"}}/>
+            {this.state.open? this.showMenu():this.hideMenu()}        
+            </div>   
+        </div>  
+        )
+    }
 }
-
-export default Menu;
+export default Menu

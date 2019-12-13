@@ -2,12 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './rectangle.css';
-//
-//import Menu from './Components/Menu/Menu'
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom'
 import App from './App'
-//
 
 
 ReactDOM.render(
