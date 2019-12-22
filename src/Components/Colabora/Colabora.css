@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     z-index: -2;
     display: flex;
+    /* position: fix; */
 }
 
 /*-------SEGONA PART-----------*/

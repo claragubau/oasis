@@ -18,37 +18,37 @@ class Menu extends Component{
 
     showMenu(){
         return <div class="overlay">
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/proyecto">Proyecto</a></li>
-                        <li><a href="/revista">Revista</a></li>
-                        <li><a href="/equipo">Equipo</a></li>
-                        <li><a href="/colabora">Colabora</a></li>
-                    </ul>
-                </nav>      
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/proyecto">Proyecto</a></li>
+                    <li><a href="/revista">Revista</a></li>
+                    <li><a href="/equipo">Equipo</a></li>
+                    <li><a href="/colabora">Colabora</a></li>
+                </ul>
+            </nav>      
+        </div>
     }
 
     hideMenu(){
         return <div class="overlay" style={{visibility:"hidden"}}>
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/proyecto">Proyecto</a></li>
-                        <li><a href="/revista">Revista</a></li>
-                        <li><a href="/equipo">Equipo</a></li>
-                        <li><a href="/colabora">Colabora</a></li>
-                    </ul>
-                </nav>      
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/proyecto">Proyecto</a></li>
+                    <li><a href="/revista">Revista</a></li>
+                    <li><a href="/equipo">Equipo</a></li>
+                    <li><a href="/colabora">Colabora</a></li>
+                </ul>
+            </nav>      
+        </div>
 
     }
 
     render() {
         return (    
         <div>
-            <div style={{display:"flex", position:"relative", justifyContent:"center", marginTop:"1em"}}>
+            <div style={{display:"flex", position:"fixed", justifyContent:"center", marginTop:"1em", marginLeft:"50%"}}>
             <HamburgerButton
                 open={this.state.open}
                 onClick={this.handleClick}

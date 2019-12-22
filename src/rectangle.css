@@ -101,7 +101,7 @@ h2::after {
 /*--------PAGINA EQUIPO-------*/
 .equipo {
     color: rgb(39, 71, 65);
-    position: fixed;
+    /* position: fixed; */
 }
 
 .equipo::before, .equipo::after{
@@ -110,7 +110,7 @@ h2::after {
 
 .equipo1 {
     color: rgb(39, 71, 65);
-    position: fixed;
+    /* position: fixed; */
 }
 
 .equipo1::before, .equipo1::after{
@@ -133,6 +133,7 @@ h2::after {
 /*--------PAGINA COLABORA--------*/
 .colabora1 {
     color: rgb(199, 57, 69);
+    position: fixed;
 }
 
 .colabora1::before, .colabora1::after{
@@ -142,6 +143,7 @@ h2::after {
 
 .colabora2 {
     color: rgb(199, 57, 69);
+    position: fixed;
 }
 
 .colabora2::before, .colabora2::after{

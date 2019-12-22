@@ -14,7 +14,7 @@ function Equipo(){
                 <div className="column">
                     <div className="row">
                         <div className="overlay">
-                            <div className="text">DAVID ALSINA</div>
+                            <div className="text">David</div>
                             <div className="subtext"> ricardo </div>
                         </div>
                         <img src = {David} alt="loading..." className/>
