@@ -69,7 +69,7 @@ img{
   grid-template-columns: 33.3% 33.3% 33.3%;
   text-align: center;
   grid-auto-rows: minmax(100px, auto);
-  margin-bottom: 15%;
+  margin-bottom: 3%;
   margin-left: 22%;
 }
 .column1{
@@ -91,4 +91,14 @@ img{
 .second{
   top: 0;
   color: grey;
+}
+
+.backequipo{
+  background-image: url("../../images/Pattern_Verd.jpg");
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

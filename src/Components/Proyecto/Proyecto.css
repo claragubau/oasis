@@ -1,60 +1,67 @@
 /*-----PROYECTO------*/
 h3{
-    color: white;
-    margin-bottom: -5px;
-    margin-top: -5px;
-  }
+  color: white;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
   
-  p {
-    color: white;
-    margin: 6px;
-  }
+p {
+  color: white;
+  margin: 6px;
+}
   
-  .proyectotext1{
-    position: absolute;
-    top: -10%;
-    left: -20%;
-    width: 40%;
-    font-size: small;
-    /* margin-top: 10%;
-    margin-left: 15%; */
-  }
-  .proyectotext2{
-    width: 75%;
-    position: absolute;
-    bottom: -7.5%;
-    right: -25%;
-    text-align: right;
-    font-size: small;
-    /* margin-left: 50%;
-    margin-top: 13%; */
-  }
+.proyectotext1{
+  position: absolute;
+  top: -10%;
+  left: -20%;
+  width: 50%;
+  font-size: small;
+}
+
+.proyectotext2{
+  width: 65%;
+  position: absolute;
+  bottom: -15%;
+  right: -25%;
+  text-align: right;
+  font-size: small;
+}
   
-  .proyectotext3{
-    position: absolute;
-    top: 33%;
-    left: 30%;
-    color: white;
-    font-size: 45px;
-    font-weight: 750;
-    transform: rotate(-1.5deg);
-    -webkit-transform: rotate(-1.5deg);
-    -moz-transform: rotate(-1.5deg);
-  }
+.proyectotext3{
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  color: white;
+  font-size: 45px;
+  font-weight: 750;
+  transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
+}
   
-  .trailer{
-    position: relative;
-    /* text-align: center; */
-    color: white;
-    width: 50%;
-    /* height: 25%; */
-    left: 25%;
-    top: 25%;
-  }
+.trailer{
+  position: relative;
+  color: white;
+  width: 50%;
+  left: 25%;
+  top: 25%;
+}
   
-  .trailer img{
-    width: 100%;
-    height: 325px;
-    filter: opacity(55%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+.trailer img{
+  width: 100%;
+  height: 325px;
+  filter: opacity(30%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.backproyecto {
+  background-image: url("../../images/Pattern_Verd.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -2;
+}

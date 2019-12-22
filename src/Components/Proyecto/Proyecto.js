@@ -5,7 +5,7 @@ import './Proyecto.css'
 function Proyecto(){
     return(
         <div className="backproyecto">
-            <h1 className="proyecto">Proyecto</h1>
+            <h1 className="proyecto">EL PROYECTO</h1>
             <h2 className="proyecto">OASIS</h2>
             <div className="rectproyecto"></div>
             <div className="trailer">
@@ -35,8 +35,6 @@ function Proyecto(){
                 </div>
             </div>
         </div>
-                        // <img src = {Random} alt="loading"/>
-
     )
 }
 

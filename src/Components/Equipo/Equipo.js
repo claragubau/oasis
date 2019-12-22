@@ -10,9 +10,6 @@ import './equipo.css'
 function Equipo(){
     return(
         <div>
-            <h1 className="equipo1">EQUIPO</h1>
-            <h2 className="equipo">OASIS</h2>
-            <div className="rectequipo"></div>
             <div className="grid-container">
                 <div className="column">
                     <div className="row">
@@ -123,6 +120,9 @@ function Equipo(){
                     </div>
                 </div>
             </div>
+            <h1 className="equipo1">EQUIPO</h1>
+            <h2 className="equipo">OASIS</h2>
+            {/* <div className="rectequipo"></div> */}
         </div>
     )
 }
