@@ -26,6 +26,12 @@ function Colabora(){
                 <br/>
                 Un premio por persona ganadora.
             </div>    
+            <div className="righttext">
+                <b>¿POR QUÉ UN FONDO COMÚN?</b>
+                <br/>
+                OASIS se sustenta sobre una base econónmica débil i la mejor forma para construirlo
+                es contando con <b>pequeños granitos de arena.</b>
+            </div>
         </div>
     )
 }

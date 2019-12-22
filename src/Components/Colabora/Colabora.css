@@ -2,10 +2,21 @@
     margin-left: 12%;
     width: 23%;
     margin-top: 8%;
+    position: absolute;
+    color: rgb(60, 72, 68);
 }
 
 br{
     display: block;
     margin: 5% 0;
     content: " ";
+}
+
+.righttext{
+    position: absolute;
+    margin-left: 65%;
+    width: 23%;
+    margin-top: 8%;
+    text-align: right;
+    color: rgb(60, 72, 68);
 }

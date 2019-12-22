@@ -1,5 +1,5 @@
 import React from 'react'
-import Random from '../../images/randompic.jpg'
+import Trailer from '../../images/trailer.jpg'
 import './Proyecto.css'
 
 function Proyecto(){
@@ -9,7 +9,7 @@ function Proyecto(){
             <h2 className="proyecto">OASIS</h2>
             <div className="rectproyecto"></div>
             <div className="trailer">
-                <img src = {Random} alt="loading"/>
+                <img src = {Trailer} alt="loading"/>
                 <div className="proyectotext1">
                     <h3>SINOPSIS</h3>
                     <p>
@@ -31,7 +31,7 @@ function Proyecto(){
                     </p>
                 </div>
                 <div className="proyectotext3">
-                    VER TRÁILER
+                    <i>VER TRÁILER</i>
                 </div>
             </div>
         </div>
