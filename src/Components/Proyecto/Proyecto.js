@@ -7,7 +7,7 @@ function Proyecto(){
         <div className="backproyecto">
             <h1 className="proyecto">EL PROYECTO</h1>
             <h2 className="proyecto">OASIS</h2>
-            <div className="rectproyecto"></div>
+            {/* <div className="rectproyecto"></div> */}
             <div className="trailer">
                 <img src = {Trailer} alt="loading"/>
                 <div className="proyectotext1">

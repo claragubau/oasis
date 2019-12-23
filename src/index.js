@@ -5,6 +5,7 @@ import './rectangle.css';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom'
 import App from './App'
+import Avenir from './AvenirNext/ANCondensed.ttc'
 
 
 ReactDOM.render(
