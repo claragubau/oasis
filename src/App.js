@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Route, Switch, BrowserRouter} from 'react-router-dom'
 
 //lazy loading the components
@@ -10,7 +10,7 @@ const Proyecto = React.lazy(() => import('./Components/Proyecto/Proyecto'));
 const Revista = React.lazy(() => import('./Components/Revista/Revista'))
 const Menu = React.lazy(() => import('./Components/Menu/Menu'))
 
-const renderLoader = () => <div className="loader"></div>;
+// const renderLoader = () => <div className="loader"></div>;
 
 
 function App() {

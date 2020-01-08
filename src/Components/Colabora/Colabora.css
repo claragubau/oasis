@@ -3,18 +3,19 @@
     margin-left: 25%;
     margin-right: 23%;
     margin-bottom: 10%;
-    color: rgb(60, 72, 68);
+    color: rgb(64, 81, 77);
     line-height: 100%;
     grid-column: 1;
+    font-size: 1.2vw;
 }
 
 .centro{
     object-position: center;
     position: absolute;
     grid-column: 2;
-    margin-left: 45%;
+    left: 45%;
     margin-top: 17.5%;
-    color: rgb(65, 85, 76)
+    color: rgb(64, 81, 77);
 }
 
 .righttext{
@@ -22,44 +23,53 @@
     margin-right: 30%;
     margin-left: 25%;
     text-align: right;
-    color: rgb(60, 72, 68);
+    color: rgb(64, 81, 77);
     line-height: 100%;
     grid-column: 3;
 }
 
-button {
-    background-color: rgb(60, 72, 68);
+.button {
+    background-color: rgb(64, 81, 77);
     border: none;
     color: white;
     padding: 15px 50px;
     text-align: center;
+    text-decoration: none;
     display: inline-block;
     font-size: 25px;
     border-radius: 15px;
     margin-left: -30px;
+
     -moz-transition-duration: 0.2s;
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
+
     box-shadow:  0 0 15px  rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
     -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
 }
 
-button:hover {
-    background-color: rgb(226, 76, 89);
+.button:hover {
+    background-color: rgb(220, 57, 69);
     color: white;
 }
 
-.down{
-    font-size: smaller;
+.downtext{
+    font-size: 0.9vw;
     color: grey;
     margin-top: 9%;
 }
 
 br {
     display: block;
-    margin: 20px 0;
+    margin: 1.25vw;
     content: " ";
+}
+
+img{
+    object-position: center;
+    height: 80px;
+    padding: 4%;
 }
 
 .backcolab {
@@ -78,15 +88,13 @@ br {
 .txt1{
     margin-top: 18%;
     font-weight: bold;
-    color: rgb(199, 57, 69);
+    color: rgb(200, 57, 69);
     text-align: center;
     font-size: larger;
     margin-left: -45%;
 }
 
 .img1{
-    /* height: 5px; */
-    /* position: absolute; */
     margin-left: 10%;
     object-position: center;
     height: 180px;
@@ -94,7 +102,7 @@ br {
 
 .txt2{
     font-weight: bold;
-    color: rgb(199, 57, 69);
+    color: rgb(200, 57, 69);
     text-align: center;
     font-size: larger;
     margin-left: -45%;
@@ -106,19 +114,12 @@ br {
     margin-left: 5%;
 }
 
-img{
-    object-position: center;
-    height: 80px;
-    padding: 4%;
-}
-
 .patrocinadors{
     margin-left: 30%;
 }
 
 .backcolab2 {
     background-image: url("../../images/Pattern_colabora.jpg");
-    /* margin-top: -8%; */
     width: 100%;
     position: absolute;
     background-size: cover;

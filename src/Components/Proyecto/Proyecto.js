@@ -5,9 +5,9 @@ import './Proyecto.css'
 function Proyecto(){
     return(
         <div className="backproyecto">
-            <h1 className="proyecto">EL PROYECTO</h1>
-            <h2 className="proyecto">OASIS</h2>
-            {/* <div className="rectproyecto"></div> */}
+            <fieldset>
+                <legend align="center">EL PROYECTO</legend>
+                <div className="legend2">OASIS</div>
             <div className="trailer">
                 <img src = {Trailer} alt="loading"/>
                 <div className="proyectotext1">
@@ -34,6 +34,7 @@ function Proyecto(){
                     <i>VER TRÁILER</i>
                 </div>
             </div>
+            </fieldset>
         </div>
     )
 }

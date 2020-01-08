@@ -3,36 +3,35 @@ h3{
   color: white;
   margin-bottom: -5px;
   margin-top: -5px;
-}
-  
-p {
-  color: white;
-  margin: 6px;
+  font-size: x-large;
+  margin-left: -5px;
+  display: inline-block;
 }
   
 .proyectotext1{
   position: absolute;
   top: -10%;
-  left: -20%;
+  left: -10%;
   width: 50%;
-  font-size: small;
+  font-size: 15px;
+  display: inline-block;
 }
 
 .proyectotext2{
-  width: 65%;
+  width: 74%;
   position: absolute;
-  bottom: -15%;
-  right: -25%;
+  bottom: -10%;
+  right: -15%;
   text-align: right;
-  font-size: small;
+  font-size: 14px;
 }
   
 .proyectotext3{
   position: absolute;
-  top: 33%;
+  top: 30%;
   left: 30%;
   color: white;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 750;
   transform: rotate(-1.5deg);
   -webkit-transform: rotate(-1.5deg);
@@ -42,9 +41,11 @@ p {
 .trailer{
   position: relative;
   color: white;
-  width: 50%;
-  left: 25%;
-  top: 25%;
+  width: 70%;
+  left: 15%;
+  right: 20%;
+  top: 10%;
+  text-size-adjust: auto;
 }
   
 .trailer img{
@@ -66,4 +67,35 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -2;
+}
+
+fieldset {
+  position: fixed;
+  height: 80vh;
+  top: 10%;
+  width: auto;
+  bottom: 5%;
+  left: 10%;
+  right: 10%;
+  border-style: solid;
+  z-index: 2;
+  border-color: white;
+}
+
+legend{
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.legend2 {
+  position: absolute;
+  right: 45%;
+  background:  url('../../images/Pattern_Verd.jpg');
+  line-height: 2em;
+  bottom: -25px;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+  
 }

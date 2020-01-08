@@ -8,9 +8,6 @@ import './Colabora.css'
 function Colabora(){
     return(
         <div>
-            <h1 className="colabora1">COLABORA</h1> 
-            {/* <div className="rectcolab"></div> */}
-            <h2 className="colabora2">OASIS</h2>
             <div className="backcolab">
                 <div className="lefttext">
                     <b>FUNCIONAMIENTO DEL <i>FONDO COMÚN</i></b>
@@ -30,7 +27,7 @@ function Colabora(){
                     El <b>14 DE FEBRERO DE 2020</b> se anunciarán las ganadoras.
                     <br/>
                     Un premio por persona ganadora.
-                    <div className="down"><i>*Las aportacinoes pueden ser anónimas o no, 
+                    <div className="downtext"><i>*Las aportacinoes pueden ser anónimas o no, 
                     pero ten en cuenta que si lo son, no se podrá optar a los sorteos</i></div> 
                 </div>    
                 <div className="righttext">
@@ -41,7 +38,7 @@ function Colabora(){
                 </div>
                 <div className="centro">
                     <img src={Paypal} alt="."/>
-                    <button>COLABORA</button>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/pools/c/8jk1MkTAX5" class="button"><b><i>COLABORA</i></b></a>
                 </div>
             </div>
             <div className="backcolab2">
