@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './rectangle.css';
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter} from 'react-router-dom'
+// import {BrowserRouter} from 'react-router-dom'
 import App from './App'
-import Avenir from './AvenirNext/ANCondensed.ttc'
+// import Avenir from './AvenirNext/ANCondensed.ttc'
 
 
 ReactDOM.render(

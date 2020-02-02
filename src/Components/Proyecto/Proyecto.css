@@ -12,18 +12,9 @@ h3{
   position: absolute;
   top: -10%;
   left: -10%;
-  width: 50%;
+  width:35%;
   font-size: 15px;
   display: inline-block;
-}
-
-.proyectotext2{
-  width: 74%;
-  position: absolute;
-  bottom: -10%;
-  right: -15%;
-  text-align: right;
-  font-size: 14px;
 }
   
 .proyectotext3{
@@ -91,11 +82,10 @@ legend{
 .legend2 {
   position: absolute;
   right: 45%;
-  background:  url('../../images/Pattern_Verd.jpg');
+  /* background:  url('../../images/Pattern_Verd.jpg'); */
   line-height: 2em;
   bottom: -25px;
   font-size: 30px;
   color: white;
   font-weight: bolder;
-  
 }

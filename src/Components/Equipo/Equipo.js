@@ -1,15 +1,20 @@
 import React from 'react'
-import David from '../../images/David.gif'
-import Buke from '../../images/Buke.gif'
-import Isi from '../../images/isigif.gif'
-import Lluis from '../../images/Lluis.gif'
-import Marta from '../../images/Marta.gif'
-import Pau from '../../images/Pau.gif'
+import David from '../../images/equipo/da.gif'
+import Buke from '../../images/equipo/buke.gif'
+import Isi from '../../images/equipo/isi.gif'
+import Lluis from '../../images/equipo/lluis.gif'
+import Marta from '../../images/equipo/marta.gif'
+import Pau from '../../images/equipo/pau.gif'
 import './equipo.css'
 
 function Equipo(){
+
     return(
         <div>
+            <fieldset>
+                <legend align="center">EQUIPO</legend>
+                {/* <div className="legend2">OASIS</div> */}
+            </fieldset>
             <div className="grid-container">
                 <div className="column">
                     <div className="row">
@@ -121,9 +126,6 @@ function Equipo(){
                     </div>
                 </div>
             </div>
-            <h1 className="equipo1">EQUIPO</h1>
-            <h2 className="equipo">OASIS</h2>
-            {/* <div className="rectequipo"></div> */}
         </div>
     )
 }

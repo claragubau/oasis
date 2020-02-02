@@ -98,6 +98,19 @@ h2::after {
     border-bottom: none;
 }
 
+.rectrevista::before,
+.rectrevista::after{
+    background-color: black;
+    font-display: center;
+}
+.rectrevista::before {
+    right: 0.5em;
+}
+
+.rectrevista::after {
+    left: 0.5em;
+}
+
 /*--------PAGINA EQUIPO-------*/
 .equipo {
     color: rgb(39, 71, 65);

@@ -1,12 +1,99 @@
+.button{
+    background-color: rgb(240, 35, 156);
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-top: 30%;
+
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+    box-shadow:  0 0 15px  rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.4);
+}
+
+.button:hover {
+    background-color: rgb(16, 63, 143);
+    color: rgb(240, 35, 156);
+}
+
+
 .backrevista{
-    background-image: url("../../images/larevista_fons.jpg");
+    background: url("../../images/La_Revista_Fons.mov");
     /* background-color: blue; */
     position: fixed;
     width: 100%;
-    height: 100%;
-    top: 0px;
+    height: 120%;
+    top: -60px;
     left: 0px;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -2;
+    z-index: -1;
+}
+
+fieldset {
+    position: fixed;
+    height: 80vh;
+    top: 10%;
+    width: auto;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    border-style: solid;
+    border-color: rgb(240, 35, 156);
+}
+
+legend{
+    color: rgb(240, 35, 156);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.legend2 {
+    position: absolute;
+    right: 40%;
+    background:url('../../images/larevista_fons.jpg');
+    line-height: 2em;
+    bottom: -30px;
+}
+
+img{
+    height: 75px;
+    width: auto;
+}
+
+.vidback{
+    position: absolute;
+    top: 0%; 
+    left: 0%;
+    max-height: fit-content; 
+    width: auto; 
+    height: auto;
+    z-index: -1000; 
+    overflow: hidden;
+    /* -webkit-transform: translateX(-50%) translateY(-50%); */
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+
+
+.vid{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto;
+    z-index: -1000; 
+    overflow: hidden;
 }

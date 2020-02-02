@@ -1,44 +1,22 @@
-.lefttext{
-    margin-top: 18.5%;
-    margin-left: 25%;
-    margin-right: 23%;
-    margin-bottom: 10%;
-    color: rgb(64, 81, 77);
-    line-height: 100%;
-    grid-column: 1;
-    font-size: 1.2vw;
-}
-
 .centro{
-    object-position: center;
-    position: absolute;
-    grid-column: 2;
-    left: 45%;
-    margin-top: 17.5%;
-    color: rgb(64, 81, 77);
-}
-
-.righttext{
-    margin-top: 18.5%;
-    margin-right: 30%;
-    margin-left: 25%;
-    text-align: right;
-    color: rgb(64, 81, 77);
-    line-height: 100%;
-    grid-column: 3;
+    position: fixed;
+    width: 12.5vw;
+    margin-left: 45%;
+    margin-top: 12%;
+    color: #40514d;
 }
 
 .button {
-    background-color: rgb(64, 81, 77);
-    border: none;
+    background-color: #40514d;
     color: white;
-    padding: 15px 50px;
+    padding: 1vw 3vw 1vw 2.5vw;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    border-radius: 15px;
-    margin-left: -30px;
+    font-size: 1.5vw;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: block;
+    font-style: italic;
 
     -moz-transition-duration: 0.2s;
     -webkit-transition-duration: 0.2s;
@@ -53,76 +31,72 @@
     background-color: rgb(220, 57, 69);
     color: white;
 }
-
-.downtext{
-    font-size: 0.9vw;
-    color: grey;
-    margin-top: 9%;
+.paypal{
+    width: 5.5vw;
+    margin-left: 40px;
 }
-
-br {
-    display: block;
-    margin: 1.25vw;
-    content: " ";
-}
-
-img{
-    object-position: center;
-    height: 80px;
-    padding: 4%;
-}
-
 .backcolab {
-    background-image: url("../../images/fonscolabb.jpg");
+    background-image: url("../../images/Fons_colabora.jpg");
     width: 100%;
     left: 0px;
+    height: 100%;
+    position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     z-index: -2;
-    display: inline-grid;
-    grid-template-columns: 45% 10% 45%;
 }
 
-/*-------SEGONA PART-----------*/
-
-.txt1{
-    margin-top: 18%;
-    font-weight: bold;
-    color: rgb(200, 57, 69);
-    text-align: center;
-    font-size: larger;
-    margin-left: -45%;
+fieldset {
+    position: fixed;
+    height: 80vh;
+    top: 8.5%;
+    width: auto;
+    bottom: 5%;
+    left: 10%;
+    right: 10%;
+    border-style: solid;
+    border-color: #40514d;
 }
 
-.img1{
-    margin-left: 10%;
-    object-position: center;
-    height: 180px;
+legend{
+    color: #40514d;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
-.txt2{
-    font-weight: bold;
-    color: rgb(200, 57, 69);
-    text-align: center;
-    font-size: larger;
-    margin-left: -45%;
-}
-
-.img2{
-    height: 80px;
-    margin-bottom: 160px;
-    margin-left: 5%;
+.logo{
+    margin-top: 41.5%;
+    margin-left: 42%;
+    width: 150px;
 }
 
 .patrocinadors{
-    margin-left: 30%;
+    /* height: 20px; */
+    top: 25px;
+    margin-left: -30vw;
+    width: auto;
 }
 
-.backcolab2 {
-    background-image: url("../../images/Pattern_colabora.jpg");
-    width: 100%;
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -2;
+.grans{
+    height: 7vw;
+    margin-left: 6vw;
+    margin-top: 1vw;
+}
+
+.mitjans{
+    height:6vw;
+    margin-left: 8vw;
+    margin-top:1vw;  
+}
+
+.petits{
+    height: 5.5vw;
+    margin-left: 10vw;
+    margin-top: 1vw;
+}
+.ctext{
+    font-weight: bold;
+    color: #40514d;
+    font-size: 1.45vw;
 }
