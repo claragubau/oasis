@@ -17,6 +17,7 @@ class Menu extends Component{
     }
 
     showMenu(){
+
         return <div class="overlay">
             <nav>
                 <ul>
@@ -31,18 +32,7 @@ class Menu extends Component{
     }
 
     hideMenu(){
-        return <div class="overlay" style={{visibility:"hidden"}}>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/proyecto">Proyecto</a></li>
-                    <li><a href="/revista">Revista</a></li>
-                    <li><a href="/equipo">Equipo</a></li>
-                    <li><a href="/colabora">Colabora</a></li>
-                </ul>
-            </nav>      
-        </div>
-
+        return 
     }
 
     render() {

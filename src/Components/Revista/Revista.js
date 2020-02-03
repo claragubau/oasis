@@ -1,9 +1,10 @@
 import React from 'react'
 import './Revista.css'
 import Vid from '../../images/La_Revista_Fons.mov'
+
 function Revista(){
     return(
-        <div>
+        <div style={{position:"absolute", zIndex:-2}}>
             {/* <video id="vid" video autoPlay>
                 <source id="mov" src={Vid} type="video/mov"></source>
             </video> */}

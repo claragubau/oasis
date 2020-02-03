@@ -2,26 +2,16 @@ html, body{
   height: 100%;
 }
 
+@font-face{
+  font-family: 'Avenir';
+  src: local('Avenir'), url('./AvenirNext/Avenir-Medium.ttf'), format('truetype');
+}
+
 body {
   margin: 0;
-  /* font-family: "Avenir"; */
-  font-family: -apple-system, 
-    BlinkMacSystemFont, 
-    "Segoe UI", 
-    "Roboto", 
-    "Oxygen",
-    "Ubuntu", 
-    "Cantarell", 
-    "Fira Sans", 
-    "Droid Sans", 
-    "Helvetica Neue",
-    sans-serif, "Avenir";
+  font-family: "Avenir";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
 }
 
-@font-face{
-  font-family: 'Avenir';
-  src: local('AvenirNext'), url('./AvenirNext/ANCondensed.ttc'), format('truetype');
-}
