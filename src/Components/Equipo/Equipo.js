@@ -19,14 +19,14 @@ function Equipo(){
             <div className="grid-container">
                 <div className="column">
                     <div className="row">
-                        <div className="overlay">
+                        <div className="overlayequipo">
                             <div className="text">DAVID ALSINA</div>
                             <div className="subtext">Dirección y Guión</div>
                         </div>
                         <img src = {David} alt="loading..." />
                     </div>
                     <div className="row">
-                        <div className="overlay"><div className="text">MARIA BOQUERA</div> 
+                        <div className="overlayequipo"><div className="text">MARIA BOQUERA</div> 
                         <div className="subtext">Dirección de Arte y Diseño Gráfico</div>
                         </div>
                         <img src = {Buke} alt="loading..."/>
@@ -34,24 +34,24 @@ function Equipo(){
                 </div>
                 <div className="column">
                     <div className="row">
-                        <div className="overlay"><div className="text">ISABEL PÉREZ</div>
+                        <div className="overlayequipo"><div className="text">ISABEL PÉREZ</div>
                         <div className="subtext">Dirección de Postproducción y Responsable de Sonido</div></div>
                         <img src = {Isi} alt="loading..."/>
                     </div>
                     <div className="row">
-                        <div className="overlay"><div className="text"> LLUÍS CASCALES </div>
+                        <div className="overlayequipo"><div className="text"> LLUÍS CASCALES </div>
                         <div className="subtext"> Ayudante de Dirección </div></div>
                         <img src = {Lluis} alt="loading..."/>
                     </div>
                 </div>
                 <div className="column">
                     <div className="row">
-                        <div className="overlay"><div className="text"> MARTA CÁMARA </div>
+                        <div className="overlayequipo"><div className="text"> MARTA CÁMARA </div>
                         <div className="subtext"> Dirección de Producción </div></div>
                         <img src = {Marta} alt="loading..."/>
                     </div>
                     <div className="row">
-                        <div className="overlay"><div className="text"> PAU SIMON </div>
+                        <div className="overlayequipo"><div className="text"> PAU SIMON </div>
                         <div className="subtext"> Dirección de Fotografia y Responsable de Transmedia </div></div>
                         <img src = {Pau} alt="loading..."/>
                     </div>

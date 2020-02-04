@@ -1,5 +1,5 @@
 
-.overlay{
+.overlaymenu{
   position: fixed;
   color: black;
 	visibility:visible;
@@ -9,10 +9,10 @@
 	top: 0;
   left: 0;
   display: inline-block;
-  background-color: rosybrown; 
+  background-image: url('../../images/backmenu.png');
 }
 
-.overlay nav {
+.overlaymenu nav {
   text-align: center;
   position: relative;
   top: 50%;
@@ -22,7 +22,7 @@
   transform: translateY(-50%);
 }
   
-.overlay ul {
+.overlaymenu ul {
   list-style: none;
   padding: 0;
   margin: 0 auto;
@@ -31,14 +31,14 @@
   position: relative;
 }
   
-.overlay ul li {
+.overlaymenu ul li {
   display: block;
   height: 20%;
   height: calc(100% / 5);
   min-height: 54px;
 }
   
-.overlay ul li a {
+.overlaymenu ul li a {
   font-weight: 300;
   display: block;
   color: black;
@@ -50,8 +50,8 @@
 }
 
   
-.overlay ul li a:hover,
-.overlay ul li a:focus {
+.overlaymenu ul li a:hover,
+.overlaymenu ul li a:focus {
   color: #849368;
 }
   

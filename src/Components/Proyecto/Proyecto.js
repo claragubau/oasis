@@ -1,10 +1,12 @@
-import React from 'react'
 import Trailer from '../../images/trailer.jpg'
 import './Proyecto.css'
 import playbutton from '../../images/PLAY.png'
-
+import React, { Component } from 'react'
 import Menu from '../Menu/Menu'
-function Proyecto(){
+
+class Proyecto extends Component{
+
+    render(){
     return(
         <div>
         <Menu/>
@@ -25,6 +27,7 @@ function Proyecto(){
                 </div>
                 <div className="proyectotext3">
                     <i>VER TRÁILER</i>
+                    <image src={playbutton}/>
                 </div>
                 <image src={playbutton} className="play"/>
             </div>
@@ -38,6 +41,8 @@ function Proyecto(){
         </div>
         </div>
     )
+    }
 }
+
 
 export default Proyecto;

@@ -52,7 +52,7 @@ img{
   height: 100%;
 }
 
-.row:hover .overlay{
+.row:hover .overlayequipo{
   opacity: 0.75;
 }
 
@@ -86,7 +86,7 @@ img{
   font-style: italic;
 }
 
-.overlay{
+.overlayequipo{
   position: absolute;
   top: 0;
   bottom: 0;

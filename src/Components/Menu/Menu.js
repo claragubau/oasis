@@ -18,14 +18,14 @@ class Menu extends Component{
 
     showMenu(){
 
-        return <div class="overlay">
+        return <div class="overlaymenu">
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/proyecto">Proyecto</a></li>
-                    <li><a href="/revista">Revista</a></li>
-                    <li><a href="/equipo">Equipo</a></li>
-                    <li><a href="/colabora">Colabora</a></li>
+                    <li><a href="/">LA HABITACIÓN DE ADA</a></li>
+                    <li><a href="/proyecto">EL PROYECTO</a></li>
+                    <li><a href="/revista">LA REVISTA</a></li>
+                    <li><a href="/equipo">EQUIPO</a></li>
+                    <li><a href="/colabora">COLABORA!</a></li>
                 </ul>
             </nav>      
         </div>
@@ -38,7 +38,8 @@ class Menu extends Component{
     render() {
         return (    
         <div>
-            <div style={{display:"flex", position:"fixed", justifyContent:"center", marginTop:"1em", marginLeft:"50%"}}>
+            <div style={{display:"flex", position:"fixed", justifyContent:"center", 
+                        marginTop:"1em", marginLeft:"50%"}}>
             <HamburgerButton
                 open={this.state.open}
                 onClick={this.handleClick}
