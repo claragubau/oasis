@@ -2,16 +2,18 @@ import React from 'react'
 import Trailer from '../../images/trailer.jpg'
 import './Proyecto.css'
 import playbutton from '../../images/PLAY.png'
-import Menu from '../Menu/Menu'
 
+import Menu from '../Menu/Menu'
 function Proyecto(){
     return(
         <div>
+            
         <Menu/>
         <div className="backproyecto" style={{position:"absolute", zIndex:-2}}>
        
-            <fieldset/>
+            <fieldset>
             <legend align="center">EL PROYECTO</legend>
+            </fieldset>
             <div className="trailer" style={{zIndex:30}}>
                 <img src = {Trailer} alt="loading"/>
                 <div className="proyectotext1">

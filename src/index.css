@@ -1,15 +1,15 @@
 html, body{
   height: 100%;
 }
-
+/* 
 @font-face{
   font-family: 'Avenir';
-  src: local('Avenir'), url('./AvenirNext/Avenir-Medium.ttf'), format('truetype');
-}
+  src: local('Avenir'), url('./AvenirNext/Avenir-Light.ttf'), format('truetype');
+} */
 
 body {
   margin: 0;
-  font-family: "Avenir";
+  /* font-family: "Avenir"; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
