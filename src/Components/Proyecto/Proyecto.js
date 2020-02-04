@@ -7,7 +7,6 @@ import Menu from '../Menu/Menu'
 function Proyecto(){
     return(
         <div>
-            
         <Menu/>
         <div className="backproyecto" style={{position:"absolute", zIndex:-2}}>
        

@@ -4,13 +4,18 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "dot": "^1.1.3",
+    "jquery": "^1.9.1",
+    "photo-sphere-viewer": "^3.5.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-css-blur": "^1.1.1",
     "react-dom": "^16.12.0",
     "react-hamburger-button": "0.0.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "three": "^0.113.2",
+    "uevent": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
