@@ -32,10 +32,9 @@ h3{
 .trailer{
   position: relative;
   color: white;
-  width: 70%;
-  left: 15%;
-  right: 20%;
-  top: 10%;
+  width: 50%;
+  left: 27.5%;
+  top: 25%;
   text-size-adjust: auto;
 }
   
@@ -50,7 +49,7 @@ h3{
 
 .backproyecto {
   background-image: url("../../images/Pattern_Verd.jpg");
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0px;
@@ -58,6 +57,25 @@ h3{
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -2;
+}
+
+.backreparto{
+  background-image: url("../../images/breparto.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 624px;
+  left: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -25;
+}
+
+.textreparto{
+  margin-top: 25%;
+  margin-left: 15%;
+  color: white;
+  width: 15%;
 }
 
 fieldset {
@@ -77,12 +95,12 @@ legend{
   color: white;
   font-size: 35px;
   font-weight: bolder;
+  font-style: italic;
 }
 
 .legend2 {
   position: absolute;
   right: 45%;
-  /* background:  url('../../images/Pattern_Verd.jpg'); */
   line-height: 2em;
   bottom: -25px;
   font-size: 30px;

@@ -15,6 +15,7 @@ function Equipo(){
                 <legend align="center">EQUIPO</legend>
                 {/* <div className="legend2">OASIS</div> */}
             </fieldset>
+            {/*  */}
             <div className="grid-container">
                 <div className="column">
                     <div className="row">
@@ -35,9 +36,6 @@ function Equipo(){
                     <div className="row">
                         <div className="overlay"><div className="text">ISABEL PÉREZ</div>
                         <div className="subtext">Dirección de Postproducción y Responsable de Sonido</div></div>
-                        {/* <video controls loop>
-                            <source src = {Isi} type="video/mp4"/>
-                        </video> */}
                         <img src = {Isi} alt="loading..."/>
                     </div>
                     <div className="row">
@@ -60,6 +58,7 @@ function Equipo(){
                 </div>
             </div>
 
+            {/* <video src={Back} autoPlay loop className="fuck"/> */}
             <div className="backequipo">
                 <div className="grid">
                     <div className="column1">
@@ -82,7 +81,7 @@ function Equipo(){
                         <div className="first">Edición, Etalonaje y DIT</div>
                         <div className="second">ISABEL PÉREZ</div>
                    </div>
-                   <div className="column2">
+                    <div className="column2">
                        <div className="first">Dirección de Producción</div>
                        <div className="second">MARTA CÁMARA</div>
                        <div className="first">Ayudante de Producción</div>

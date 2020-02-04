@@ -2,7 +2,7 @@
     position: fixed;
     width: 12.5vw;
     margin-left: 45%;
-    margin-top: 12%;
+    margin-top: 18vh;
     color: #40514d;
 }
 
@@ -12,7 +12,7 @@
     padding: 1vw 3vw 1vw 2.5vw;
     text-align: center;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     border-radius: 25px;
     margin-top: 20px;
     display: block;
@@ -32,7 +32,7 @@
     color: white;
 }
 .paypal{
-    width: 5.5vw;
+    width: 5.25vw;
     margin-left: 40px;
 }
 .backcolab {
@@ -49,8 +49,8 @@
 
 fieldset {
     position: fixed;
-    height: 80vh;
-    top: 8.5%;
+    height: 85vh;
+    top: 8.2%;
     width: auto;
     bottom: 5%;
     left: 10%;
@@ -72,8 +72,7 @@ legend{
 }
 
 .patrocinadors{
-    /* height: 20px; */
-    top: 25px;
+    top: 20px;
     margin-left: -30vw;
     width: auto;
 }
@@ -81,22 +80,22 @@ legend{
 .grans{
     height: 7vw;
     margin-left: 6vw;
-    margin-top: 1vw;
+    margin-top: 0.8vw;
 }
 
 .mitjans{
     height:6vw;
     margin-left: 8vw;
-    margin-top:1vw;  
+    margin-top: 0.8vw;  
 }
 
 .petits{
     height: 5.5vw;
     margin-left: 10vw;
-    margin-top: 1vw;
+    margin-top: 0.8vw;
 }
 .ctext{
     font-weight: bold;
     color: #40514d;
-    font-size: 1.45vw;
+    font-size: 1.4vw;
 }
