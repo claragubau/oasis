@@ -8,6 +8,7 @@ fieldset{
   right: 10%;
   border-style: solid;
   border-color:white;
+  z-index: -5;
 }
 
 legend{

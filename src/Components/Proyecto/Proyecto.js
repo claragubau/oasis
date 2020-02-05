@@ -3,6 +3,7 @@ import './Proyecto.css'
 import playbutton from '../../images/PLAY.png'
 import React, { Component } from 'react'
 import Menu from '../Menu/Menu'
+import ScrollUpButton from "react-scroll-up-button";
 
 class Proyecto extends Component{
 
@@ -11,7 +12,7 @@ class Proyecto extends Component{
         <div>
         <Menu/>
         <div className="backproyecto" style={{position:"absolute", zIndex:-2}}>
-       
+            <ScrollUpButton/>
             <fieldset>
             <legend align="center">EL PROYECTO</legend>
             </fieldset>

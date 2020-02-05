@@ -49,8 +49,7 @@ export default class SphereComponent extends Component {
                     x: 1100,
                     y: 525,
                     style: {
-                        // backgroundColor: 'rgba(255, 246, 223)',
-                        borderColor: 'rgba(255,255,225)'
+                        borderColor: 'rgba(255,255,225)',
                     }
                 },
                 {
@@ -58,11 +57,18 @@ export default class SphereComponent extends Component {
                     circle: 15,
                     x: 1100,
                     y: 525,
-                    tooltip: 'Cajas',
-                    style: {
-                        backgroundColor: 'rgba(0, 0, 0)'
+                    tooltip: {
+                        content: 'Cajas',
+                        position: 'right',
+                        color: 'black',
+                        backgroundColor: '#c83945'
                     },
-                    content: 'Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.'
+                    style: {
+                        color: 'rgba(0, 0, 0)'
+                    },
+                    content:
+                        'Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.'
+                        // color: 'white'
                 },
                 {
                     id: 'poster',

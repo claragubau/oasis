@@ -13,9 +13,7 @@ function Equipo(){
         <div>
             <fieldset>
                 <legend align="center">EQUIPO</legend>
-                {/* <div className="legend2">OASIS</div> */}
             </fieldset>
-            {/*  */}
             <div className="grid-container">
                 <div className="column">
                     <div className="row">
@@ -58,7 +56,6 @@ function Equipo(){
                 </div>
             </div>
 
-            {/* <video src={Back} autoPlay loop className="fuck"/> */}
             <div className="backequipo">
                 <div className="grid">
                     <div className="column1">
