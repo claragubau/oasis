@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import * as Sphere from "photo-sphere-viewer";
 import "photo-sphere-viewer/dist/photo-sphere-viewer.min.css"
+import './Home.css'
 import hab from "../../images/HABADA.jpg"
+import Menu from '../Menu/Menu'
+
 
 
 export default class SphereComponent extends Component {
@@ -38,38 +41,51 @@ export default class SphereComponent extends Component {
                 cropped_x: 500,
                 cropped_y: 250
             },
-            time_anim: false,
             default_fov: 75,
             longitude_range: [-3*Math.PI/4+0.25, 3*Math.PI/4-0.25],
             latitude_range: [-Math.PI/3, Math.PI/3],
             markers: [
                 {
                     id: 'cajas',
-                    circle: 20,
-                    x: 1100,
-                    y: 525,
+                    // circle: 20,
+                    // x: 1100,
+                    // y: 525,
+                    polygon_px: [
+                        [1100, 525], [1100, 550], [1200, 550],
+                        [1200, 525]
+                      ],
+                    svgStyle: {
+                        fill: 'rgba(255, 246, 223, 0.5)',
+                        stroke: 'rgba(255, 246, 223, 0.8)',
+                        strokeWidth: '1px',
+                        opacity:'0.1'
+                    },
                     style: {
                         borderColor: 'rgba(255,255,225)',
-                    }
-                },
-                {
-                    id: 'cajas2',
-                    circle: 15,
-                    x: 1100,
-                    y: 525,
+                    },
                     tooltip: {
                         content: 'Cajas',
-                        position: 'right',
-                        color: 'black',
+                        color: 'cream',
                         backgroundColor: '#c83945'
                     },
-                    style: {
-                        color: 'rgba(0, 0, 0)'
-                    },
-                    content:
-                        'Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.'
-                        // color: 'white'
                 },
+                // {
+                //     id: 'cajas2',
+                //     circle: 15,
+                //     x: 1100,
+                //     y: 525,
+                //     tooltip: {
+                //         content: 'Cajas',
+                //         color: 'cream',
+                //         backgroundColor: '#c83945'
+                //     },
+                //     style: {
+                //         color: 'rgba(0, 0, 0)'
+                //     },
+                //     content:
+                //         'Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.'
+                //         // color: 'white'
+                // },
                 {
                     id: 'poster',
                     circle: 20,
@@ -80,7 +96,7 @@ export default class SphereComponent extends Component {
                         backgroundColor: 'rgba(255, 255, 255, 0)',
                     },
                     content:
-                        "Ada va coleccionando los números de las revistas OASIS y con ellas los fragmentos de póster que llegan con cada entrega. Así compone el gran póster de OASIS con el mensaje: “Completa tu OASIS”. Éste representa el trayecto que hace la protagonista durante la colección esperando que le aporte un estado de felicidad para reemplazar su vacío inconsciente. Una vez completado, apreciará que este universo la está alejando de la realidad. En el cortometraje encontraremos el póster en la habitación."
+                        "<h1>dddd</h1>Ada va coleccionando los números de las revistas OASIS y con ellas los fragmentos de póster que llegan con cada entrega. Así compone el gran póster de OASIS con el mensaje: “Completa tu OASIS”. Éste representa el trayecto que hace la protagonista durante la colección esperando que le aporte un estado de felicidad para reemplazar su vacío inconsciente. Una vez completado, apreciará que este universo la está alejando de la realidad. En el cortometraje encontraremos el póster en la habitación."
                     },               
                 {
                     id: 'posits',
@@ -122,7 +138,8 @@ export default class SphereComponent extends Component {
     render() {
         return (
         <div>
-        <div style={this.divStyle} ref={this.sphereDiv} id="viewer"><div ref={node => this.subDiv = node} style={this.divStyle}></div></div>
+            <Menu/>
+            <div style={this.divStyle} ref={this.sphereDiv} id="viewer"><div ref={node => this.subDiv = node} style={this.divStyle}></div></div>
         </div>
         )
     }

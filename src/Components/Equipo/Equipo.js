@@ -6,13 +6,17 @@ import Lluis from '../../images/equipo/lluis.gif'
 import Marta from '../../images/equipo/marta.gif'
 import Pau from '../../images/equipo/pau.gif'
 import './equipo.css'
+import Menu from '../Menu/Menu'
+
 
 function Equipo(){
 
     return(
         <div>
+            <Menu/>
             <fieldset>
                 <legend align="center">EQUIPO</legend>
+                <div style={{position:"relative"}}><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oasis.larevista/" class="button"><i><b>MAKING OF</b></i></a></div>
             </fieldset>
             <div className="grid-container">
                 <div className="column">

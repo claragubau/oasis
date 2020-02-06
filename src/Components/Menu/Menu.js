@@ -37,18 +37,19 @@ class Menu extends Component{
 
     render() {
         return (    
-        <div>
+        <div style={{position: "relative", zIndex:50}}>
             <div style={{display:"flex", position:"fixed", justifyContent:"center", 
-                        marginTop:"1em", marginLeft:"50%"}}>
+                        marginTop:"1.5em", marginLeft:"50%", zIndex:9999}} className="hamburgerbutton">
             <HamburgerButton
                 open={this.state.open}
                 onClick={this.handleClick}
-                width={23}
-                height={18}
-                strokeWidth={1}
+                width={28}
+                height={20}
+                // TODO: posar z-index
+                strokeWidth={1.5}
                 color='black'
                 animationDuration={0.5}
-                style={{margin:"0 auto"}}/>
+                style={{margin:"0 auto", zIndex: 5000}}/>
             {this.state.open? this.showMenu():this.hideMenu()}        
             </div>   
         </div>  

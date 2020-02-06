@@ -17,7 +17,7 @@ function App() {
   return (   
     <React.Suspense fallback={<div></div>}> 
     <div>
-      <Menu/>
+      {/* <Menu/> */}
       <BrowserRouter>
       <Switch>
       <Route path="/" exact component={Home}/>

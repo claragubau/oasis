@@ -16,18 +16,6 @@ legend{
   font-size: xx-large;
   font-weight: bolder;
 }
-
-.legend2 {
-  position: absolute;
-  font-size: x-large;
-  font-weight: bold;
-  right: 45%;
-  /* background:url('../../images/larevista_fons.jpg'); */
-  line-height: 2em;
-  bottom: -23px;
-}
-
-
 .grid-container{
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +95,7 @@ img{
   display: inline-grid;
   grid-template-columns: 33% 33% 33%;
   text-align: center;
-  grid-auto-rows: minmax(80px, auto);
+  grid-auto-rows: minmax(100px, auto);
   width: 70%;
   align-items: center;
   /* margin-bottom: 5%; */
@@ -128,12 +116,12 @@ img{
 }
 .first{
   font-size: 14px;
-  margin-top: 4px;
-  color: black;
+  margin-top: 6px;
+  color: white;
 }
 .second{
-  top: 0;
-  color: black;
+  margin-top: 5px;
+  color: white;
   font-weight: bold;
   font-style: italic;
 }
@@ -149,8 +137,31 @@ img{
   background-repeat: no-repeat;
   z-index: -25;
 }
+.button {
+  background-color: #40514d;
+  color: white;
+  padding: 1vw 1.5vw 1vw 1.4vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  border-radius: 25px;
+  /* margin-top: 50%; */
+  margin-top: 78vh;
+  margin-left: 34vw;
+  display: block;
+  font-style: italic;
+  width: 7vw;
 
-video{
-  max-width: 100%;
-  height: auto;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+
+  box-shadow:  0 0 15px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.6);
+}
+
+.button:hover {
+  background-color: rgb(220, 57, 69);
+  color: white;
 }
