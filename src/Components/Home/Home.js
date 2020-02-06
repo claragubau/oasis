@@ -28,11 +28,12 @@ export default class SphereComponent extends Component {
             parent: this,
             container: this.sphereDiv,
             panorama: hab,
-            navbar: [
-                'autorotate',
-                'zoom',
-                'fullscreen'
-            ],
+            // navbar: [
+            //     'autorotate',
+            //     'zoom',
+            //     'fullscreen'
+            // ],
+            navbar: null,
             pano_data: {
                 full_width: 4000,
                 full_height: 2000,
