@@ -85,7 +85,6 @@ h3{
 fieldset {
   position: fixed;
   height: 80vh;
-  top: 10%;
   width: auto;
   bottom: 5%;
   left: 10%;
@@ -93,6 +92,7 @@ fieldset {
   border-style: solid;
   z-index: 2;
   border-color: white;
+  opacity: 0.8;
 }
 
 legend{
@@ -100,16 +100,13 @@ legend{
   font-size: 30px;
   font-weight: 900;
   font-style: italic;
+  width: 200px;
 }
-
-.legend2 {
-  position: absolute;
-  right: 45%;
-  line-height: 2em;
-  bottom: -25px;
-  font-size: 30px;
-  color: white;
-  font-weight: bolder;
+.play{
+  width: auto;
+  height: 50px;
+  margin-left: 48.5%;
+  margin-top: -15px;
 }
 
 /*-------------------------------------------------*/
@@ -146,4 +143,3 @@ legend{
   margin-top: -9px;
   margin-left: -5px;
 }
-  

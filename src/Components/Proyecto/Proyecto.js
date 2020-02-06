@@ -5,7 +5,6 @@ import React, { Component } from 'react'
 import Menu from '../Menu/Menu'
 
 class Proyecto extends Component{
-
     render(){
     return(
         <div>
@@ -29,7 +28,10 @@ class Proyecto extends Component{
                     <i>VER TRÁILER</i>
                     <image src={playbutton}/>
                 </div>
-                <image src={playbutton} className="play"/>
+            </div>
+            <img src={playbutton} className="play"/>
+            <div style={{marginTop:"150px", marginLeft:"1100px"}}>
+                <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
             </div>
         </div>
         <div className="backreparto">
@@ -44,5 +46,33 @@ class Proyecto extends Component{
     }
 }
 
+class ScrollButton extends React.Component {
+    constructor() {
+      super();
+  
+      this.state = {
+          intervalId: 0
+      };
+    }
+    
+    scrollStep() {
+      if (window.pageYOffset === 0) {
+          clearInterval(this.state.intervalId);
+      }
+      window.scroll(0, window.pageYOffset - this.props.scrollStepInPx);
+    }
+    
+    scrollToTop() {
+      let intervalId = setInterval(this.scrollStep.bind(this), this.props.delayInMs);
+      this.setState({ intervalId: intervalId });
+    }
+    
+    render () {
+        return <button title='Back to top' className='scroll' 
+                 onClick={ () => { this.scrollToTop(); }}>
+                  <span className='arrow-up glyphicon glyphicon-chevron-up'></span>
+                </button>;
+    }
+} 
 
 export default Proyecto;

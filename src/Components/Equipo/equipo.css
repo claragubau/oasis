@@ -1,7 +1,6 @@
 fieldset{
   position: fixed;
-  height: 85vh;
-  top: 7.5%;
+  height: 80vh;
   width: auto;
   bottom: 5%;
   left: 10%;
@@ -9,6 +8,7 @@ fieldset{
   border-style: solid;
   border-color:white;
   z-index: -5;
+  opacity: 0.8;
 }
 
 legend{
@@ -117,7 +117,7 @@ img{
   margin-left: -25px;
 }
 .first{
-  font-size: 0.9rem;
+  font-size: 13px;
   margin-top: 1vh;
   color: white;
 }

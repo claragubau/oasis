@@ -4,6 +4,7 @@ import "photo-sphere-viewer/dist/photo-sphere-viewer.min.css"
 import './Home.css'
 import hab from "../../images/HABADA.jpg"
 import Menu from '../Menu/Menu'
+import logo from '../../images/logo.png'
 
 
 
@@ -138,6 +139,9 @@ export default class SphereComponent extends Component {
         return (
         <div>
             <Menu/>
+            <fieldset>
+
+            </fieldset>
             <div style={this.divStyle} ref={this.sphereDiv} id="viewer"><div ref={node => this.subDiv = node} style={this.divStyle}></div></div>
         </div>
         )

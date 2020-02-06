@@ -46,13 +46,12 @@
 fieldset {
     position: fixed;
     height: 80vh;
-    top: 10%;
     width: auto;
     bottom: 5%;
     left: 10%;
     right: 10%;
     border-style: solid;
-    border-color: #ea1488;
+    border-color: white;
     opacity: 0.5;
     z-index: -5;
 }

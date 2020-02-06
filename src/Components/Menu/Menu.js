@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { HamburgerButton } from 'react-hamburger-button';
 import './Menu.css'
-
+import logo from '../../images/logo.png'
 class Menu extends Component{ 
 
     constructor() {
@@ -18,19 +18,21 @@ class Menu extends Component{
 
     showMenu(){
 
-        return <div class="overlaymenu">
-            <nav>
-                <ul>
-                    <div className="mtext">
-                        {/* <fieldset/> */}
+        return <div> 
+            <div class="overlaymenu">
+                <nav><ul>
                         <li><a href="/">LA HABITACIÓN DE ADA</a></li>
                         <li><a href="/proyecto">EL PROYECTO</a></li>
                         <li><a href="/revista">LA REVISTA</a></li>
                         <li><a href="/equipo">EQUIPO</a></li>
                         <li><a href="/colabora">COLABORA</a></li>
-                    </div>
-                </ul>
-            </nav>      
+                </ul></nav>  
+                <div className="esquerra">
+                    {/* <fieldset>
+                        <img src={logo} />
+                    </fieldset> */}
+                </div>    
+            </div>
         </div>
     }
 
@@ -40,22 +42,23 @@ class Menu extends Component{
 
     render() {
         return (    
-        <div style={{position: "relative", zIndex:50}}>
-            <div style={{display:"flex", position:"fixed", justifyContent:"center", 
-                        marginTop:"1.5em", marginLeft:"50%", zIndex:9999}} className="hamburgerbutton">
-            <HamburgerButton
-                open={this.state.open}
-                onClick={this.handleClick}
-                width={28}
-                height={20}
-                // TODO: posar z-index
-                strokeWidth={1.5}
-                color='black'
-                animationDuration={0.5}
-                style={{margin:"0 auto", zIndex: 5000}}/>
-            {this.state.open? this.showMenu():this.hideMenu()}        
-            </div>   
-        </div>  
+        <div>
+            <div style={{position: "relative", zIndex:50}}>
+                <div style={{display:"flex", position:"fixed", justifyContent:"center", 
+                marginTop:"1.5em", marginLeft:"49.5%", zIndex:9999}} className="hamburgerbutton">
+                    <HamburgerButton
+                        open={this.state.open}
+                        onClick={this.handleClick}
+                        width={28}
+                        height={20}
+                        strokeWidth={1.5}
+                        color='white'
+                        animationDuration={0.5}
+                        style={{margin:"0 auto", zIndex: 5000}}/>
+                {this.state.open? this.showMenu():this.hideMenu()}     
+                </div>
+            </div>
+        </div>
         )
     }
 }

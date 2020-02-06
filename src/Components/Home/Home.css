@@ -59,3 +59,21 @@ p{
   text-align: center;
   width: 100%;
 }
+
+fieldset{
+  position: fixed;
+  height: 80vh;
+  width: auto;
+  bottom: 5%;
+  left: 10%;
+  right: 10%;
+  border-style: solid;
+  border-color: white;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+legend{
+  /* background-image: url('../../images/logo.png'); */
+  width: 45px;
+}

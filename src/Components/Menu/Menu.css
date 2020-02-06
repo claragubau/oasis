@@ -1,7 +1,7 @@
 
 .overlaymenu{
   position: fixed;
-  color: black;
+  color: white;
 	visibility:visible;
 	width: 100%;
   height: 100%;
@@ -11,7 +11,7 @@
 	top: 0;
   left: 0;
   display: inline-block;
-  background-image: url('../../images/backmenu.png');
+  background-image: url('../../images/fmenu.jpg');
   z-index: 15;
 }
 
@@ -20,6 +20,8 @@
   position: relative;
   top: 50%;
   height: 60%;
+  width: 50%;
+  margin-left: 10vw;
   font-size: 54px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -32,23 +34,24 @@
   display: inline-block;
   height: 100%;
   position: relative;
+  margin-top: 100px;
 }
   
 .overlaymenu ul li {
   display: block;
   height: 20%;
   height: calc(100% / 5);
-  min-height: 54px;
+  /* min-height: 30px; */
 }
   
 .overlaymenu ul li a {
   font-weight: 900;
   display: block;
-  color: #40514d;
+  color: white;
   font-size: 2.1rem;
-  margin-top: 2.2vh;
+  margin-top: -3.5vh;
   width: 500px;
-  margin-left: 45vw;
+  margin-left: 42.5vw;
   text-align: left;
   transform: rotate(-2.3deg);
   font-style: italic;
@@ -62,22 +65,30 @@
   
 .overlaymenu ul li a:hover,
 .overlaymenu ul li a:focus {
-  color: rgb(200, 57, 69);
+  color: rgb(128, 147, 145);
 }
   
 .hamburgerbutton > div:first-child{
   z-index: 9999999;
 }
+.esquerra{
+  position: relative;
+  color: white;
+  width: 45%;
+  height: 60vh;
+  margin-left: 10vh;
+  margin-top: -35vh;
+  border-right: solid white;
+}
 
-/* fieldset{
-  position: fixed;
-  height: 65vh;
-  top: -7.5%;
+fieldset{
+  height: 80vh;
+  /* margin-top: 10vh; */
+}
+
+.esquerra img{  
+  margin-top: 180px;
+  margin-left: 150px;
+  height: 150px;
   width: auto;
-  bottom: 5%;
-  left: 10%;
-  right: 10%;
-  border-style: solid;
-  border-color:#40514d;
-  z-index: -5;
-} */
+}

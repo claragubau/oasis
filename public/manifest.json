@@ -3,17 +3,17 @@
   "name": "Oasis",
   "icons": [
     {
-      "src": "Rajoles-01.png",
+      "src": "rlogo.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "Rajoles-01.png",
+      "src": "rlogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Rajoles-01.png",
+      "src": "rlogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
