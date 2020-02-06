@@ -42,3 +42,20 @@
 #psv-marker-revista:hover{
   opacity: 1;
 }
+
+#psv-panel-content{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+}
+p{
+  font-family:'Asap'; 
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+}

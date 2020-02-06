@@ -62,7 +62,7 @@ export default class SphereComponent extends Component {
                         backgroundColor: '#c83945'
                     },
                     content: 
-                        '<h1>CAJAS</h1>Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. <br/><br/>En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.'
+                        '<h1>CAJAS</h1><p>Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. <br/><br/>En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.</p>'
                 },
                 {
                     id: 'poster',
@@ -79,7 +79,7 @@ export default class SphereComponent extends Component {
                         content: 'Póster',
                     },
                     content: 
-                        "<h1>PÓSTER</h1><p>Ada va coleccionando los números de las revistas <i>OASIS</i> y con ellas los fragmentos de póster que llegan con cada entrega. Así compone el gran póster de <i>OASIS</i> con el mensaje: <i>“Completa tu OASIS”</i>. Éste representa el trayecto que hace la protagonista durante la colección esperando que le aporte un estado de felicidad para reemplazar su vacío inconsciente. Una vez completado, apreciará que este universo la está alejando de la realidad. <br/><br/> En el cortometraje encontraremos el póster en la habitación.</p></body>"
+                        '<h1>PÓSTER</h1><p>Ada va coleccionando los números de las revistas <i>OASIS</i> y con ellas los fragmentos de póster que llegan con cada entrega. Así compone el gran póster de <i>OASIS</i> con el mensaje: <i>“Completa tu OASIS”</i>. Éste representa el trayecto que hace la protagonista durante la colección esperando que le aporte un estado de felicidad para reemplazar su vacío inconsciente. Una vez completado, apreciará que este universo la está alejando de la realidad. <br/><br/> En el cortometraje encontraremos el póster en la habitación.</p>'
                 },     
                 {
                     id: 'posits',
@@ -96,7 +96,7 @@ export default class SphereComponent extends Component {
                         content: 'Pósits',
                     },
                     content: 
-                        "<h1>PÓSITS</h1>Las advertencias de Bea siguen presentes en el subconsciente de Ada aunque ella no las vea. Estos mensajes originados en antiguas discusiones de madre e hija son visibles para la espectadora pero no para Ada. Al menos hasta que se da cuenta de la realidad que ha evitado durante mucho tiempo. <br/><br/>En el cortometraje encontraremos los pósits en la cocina, el comedor, la habitación de Ada, el jardín y el pasillo."
+                        '<h1>PÓSITS</h1><p>Las advertencias de Bea siguen presentes en el subconsciente de Ada aunque ella no las vea. Estos mensajes originados en antiguas discusiones de madre e hija son visibles para la espectadora pero no para Ada. Al menos hasta que se da cuenta de la realidad que ha evitado durante mucho tiempo. <br/><br/>En el cortometraje encontraremos los pósits en la cocina, el comedor, la habitación de Ada, el jardín y el pasillo.</p>'
                 },          
                 {
                     id: 'lampara',
@@ -111,7 +111,7 @@ export default class SphereComponent extends Component {
                         opacity: '0.1'
                     },
                     content: 
-                    '<h1>LÁMPARA DE PLASMA</h1>Acorde con la estética y el color de <i>OASIS LA REVISTA</i>, éste objeto representa el falso oasis de Ada pareciéndose a la forma de un planeta. La esfera simboliza el universo que engloba las revistas, los pósters, las pastillas, la chaqueta… Es decir, la zona de confort donde vive atrapada la protagonista. <br/><br/>En el cortometraje encontraremos la lampara de plasma en el escritorio de la habitación de Ada y posteriormente en el mercadillo.'
+                    '<h1>LÁMPARA DE PLASMA</h1><p>Acorde con la estética y el color de <i>OASIS LA REVISTA</i>, éste objeto representa el falso oasis de Ada pareciéndose a la forma de un planeta. La esfera simboliza el universo que engloba las revistas, los pósters, las pastillas, la chaqueta… Es decir, la zona de confort donde vive atrapada la protagonista. <br/><br/>En el cortometraje encontraremos la lampara de plasma en el escritorio de la habitación de Ada y posteriormente en el mercadillo.</p>'
                 }, 
                 {
                     id: 'revista',
@@ -128,16 +128,8 @@ export default class SphereComponent extends Component {
                         content: 'Revistas',
                     },
                     content: 
-                        "<h1>REVISTAS</h1>El elemento principal de la historia es el conjunto de revistas <i>OASIS</i>. El medio que atrapa a Ada dentro de este universo ficticio y que provoca el enfrentamiento entre ella y su madre. Estos números semanales mantienen a Ada dormida y lejos de la realidad. <br/><br/>En el cortometraje encontraremos las revistas repetidamente en la cocina, el porche y la habitación de Ada. "
+                        '<h1>REVISTAS</h1><p>El elemento principal de la historia es el conjunto de revistas <i>OASIS</i>. El medio que atrapa a Ada dentro de este universo ficticio y que provoca el enfrentamiento entre ella y su madre. Estos números semanales mantienen a Ada dormida y lejos de la realidad.<br/><br/>En el cortometraje encontraremos las revistas repetidamente en la cocina, el porche y la habitación de Ada.</p>'
                 }
-                  
-                // {
-                //     id: 'revista',
-                //     circle: 20,
-                //     x: 1950,
-                //     y: 860,
-                //     content: "Las advertencias de Bea siguen presentes en el subconsciente de Ada aunque ella no las vea. Estos mensajes originados en antiguas discusiones de madre e hija son visibles para la espectadora pero no para Ada. Al menos hasta que se da cuenta de la realidad que ha evitado durante mucho tiempo.En el cortometraje encontraremos los pósits en la cocina, el comedor, la habitación de Ada, el jardín y el pasillo."
-                // }
             ]
         })
     }

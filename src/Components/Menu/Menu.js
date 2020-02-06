@@ -22,11 +22,12 @@ class Menu extends Component{
             <nav>
                 <ul>
                     <div className="mtext">
+                        {/* <fieldset/> */}
                         <li><a href="/">LA HABITACIÓN DE ADA</a></li>
                         <li><a href="/proyecto">EL PROYECTO</a></li>
                         <li><a href="/revista">LA REVISTA</a></li>
                         <li><a href="/equipo">EQUIPO</a></li>
-                        <li><a href="/colabora">COLABORA!</a></li>
+                        <li><a href="/colabora">COLABORA</a></li>
                     </div>
                 </ul>
             </nav>      

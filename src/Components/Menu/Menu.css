@@ -42,22 +42,42 @@
 }
   
 .overlaymenu ul li a {
-  font-weight: 300;
+  font-weight: 900;
   display: block;
-  color: black;
+  color: #40514d;
+  font-size: 2.1rem;
+  margin-top: 2.2vh;
+  width: 500px;
+  margin-left: 45vw;
+  text-align: left;
+  transform: rotate(-2.3deg);
+  font-style: italic;
   text-decoration: none;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
   text-transform: uppercase;
-  font-size: 1.3rem;
+
+  transition: color 0.2s;
+  -webkit-transition: color 0.2s;
 }
 
   
 .overlaymenu ul li a:hover,
 .overlaymenu ul li a:focus {
-  color: #849368;
+  color: rgb(200, 57, 69);
 }
   
 .hamburgerbutton > div:first-child{
   z-index: 9999999;
 }
+
+/* fieldset{
+  position: fixed;
+  height: 65vh;
+  top: -7.5%;
+  width: auto;
+  bottom: 5%;
+  left: 10%;
+  right: 10%;
+  border-style: solid;
+  border-color:#40514d;
+  z-index: -5;
+} */

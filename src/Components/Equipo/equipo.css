@@ -117,16 +117,16 @@ img{
   margin-left: -25px;
 }
 .first{
-  font-size: 0.8rem;
-  margin-top: 0.6vh;
+  font-size: 0.9rem;
+  margin-top: 1vh;
   color: white;
 }
 .second{
-  margin-top: 0.5vh;
+  margin-top: 0.7vh;
   color: white;
   font-weight: bold;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .backequipo{
@@ -165,6 +165,6 @@ img{
 }
 
 .button:hover {
-  background-color: rgb(220, 57, 69);
+  background-color: rgb(200, 57, 69);
   color: white;
 }
