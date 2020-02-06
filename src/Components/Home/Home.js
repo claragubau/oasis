@@ -28,11 +28,7 @@ export default class SphereComponent extends Component {
             parent: this,
             container: this.sphereDiv,
             panorama: hab,
-            // navbar: [
-            //     'autorotate',
-            //     'zoom',
-            //     'fullscreen'
-            // ],
+            time_anim: false,
             navbar: null,
             pano_data: {
                 full_width: 4000,
@@ -43,17 +39,16 @@ export default class SphereComponent extends Component {
                 cropped_y: 250
             },
             default_fov: 75,
+            default_long: -Math.PI/4,
             longitude_range: [-3*Math.PI/4+0.25, 3*Math.PI/4-0.25],
             latitude_range: [-Math.PI/3, Math.PI/3],
             markers: [
                 {
                     id: 'cajas',
-                    // circle: 20,
-                    // x: 1100,
-                    // y: 525,
                     polygon_px: [
-                        [1100, 525], [1100, 550], [1200, 550],
-                        [1200, 525]
+                        [1000, 485], [980, 500],[980, 550],
+                        [1215, 560], [1215, 525],
+                        [1150,515],[1120,520],[1120, 490]
                       ],
                     svgStyle: {
                         fill: 'rgba(255, 246, 223, 0.5)',
@@ -61,77 +56,88 @@ export default class SphereComponent extends Component {
                         strokeWidth: '1px',
                         opacity:'0.1'
                     },
-                    style: {
-                        borderColor: 'rgba(255,255,225)',
-                    },
                     tooltip: {
                         content: 'Cajas',
-                        color: 'cream',
+                        color: 'black',
                         backgroundColor: '#c83945'
                     },
+                    content: 
+                        '<h1>CAJAS</h1>Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. <br/><br/>En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.'
                 },
-                // {
-                //     id: 'cajas2',
-                //     circle: 15,
-                //     x: 1100,
-                //     y: 525,
-                //     tooltip: {
-                //         content: 'Cajas',
-                //         color: 'cream',
-                //         backgroundColor: '#c83945'
-                //     },
-                //     style: {
-                //         color: 'rgba(0, 0, 0)'
-                //     },
-                //     content:
-                //         'Éstas figuran la acción del abandono que lleva a cabo la protagonista cuando monta el mercadillo de antigüedades en el jardín. Llenas de objetos que pertenecen a la casa, las cajas están presentes en distintas escenas; simbolizando la presión que sufre Ada para aceptar la realidad y pasar página. En el cortometraje encontraremos las cajas en el comedor, la habitación de Ada y el mercadillo.'
-                //         // color: 'white'
-                // },
                 {
                     id: 'poster',
-                    circle: 20,
-                    x: 425,
-                    y: 525,
-                    tooltip: 'Póster',
-                    style: {
-                        backgroundColor: 'rgba(255, 255, 255, 0)',
+                    polygon_px: [
+                        [255, 290],[260, 680], [480, 710], [480, 620], [520, 635], [510, 480] 
+                      ],
+                    svgStyle: {
+                        fill: 'rgba(255, 246, 223, 0.5)',
+                        stroke: 'rgba(255, 246, 223, 0.8)',
+                        strokeWidth: '1px',
+                        opacity:'0.1'
                     },
-                    content:
-                        "<h1>dddd</h1>Ada va coleccionando los números de las revistas OASIS y con ellas los fragmentos de póster que llegan con cada entrega. Así compone el gran póster de OASIS con el mensaje: “Completa tu OASIS”. Éste representa el trayecto que hace la protagonista durante la colección esperando que le aporte un estado de felicidad para reemplazar su vacío inconsciente. Una vez completado, apreciará que este universo la está alejando de la realidad. En el cortometraje encontraremos el póster en la habitación."
-                    },               
+                    tooltip: {
+                        content: 'Póster',
+                    },
+                    content: 
+                        "<h1>PÓSTER</h1><p>Ada va coleccionando los números de las revistas <i>OASIS</i> y con ellas los fragmentos de póster que llegan con cada entrega. Así compone el gran póster de <i>OASIS</i> con el mensaje: <i>“Completa tu OASIS”</i>. Éste representa el trayecto que hace la protagonista durante la colección esperando que le aporte un estado de felicidad para reemplazar su vacío inconsciente. Una vez completado, apreciará que este universo la está alejando de la realidad. <br/><br/> En el cortometraje encontraremos el póster en la habitación.</p></body>"
+                },     
                 {
                     id: 'posits',
-                    circle: 20,
-                    x: 720,
-                    y: 650,
-                    tooltip: 'Pósits',
-                    style: {
-                        backgroundColor: 'rgba(255, 255, 255)',
+                    polygon_px: [
+                        [650, 505],[655, 800], [780, 800], [775, 505] 
+                      ],
+                    svgStyle: {
+                        fill: 'rgba(255, 246, 223, 0.5)',
+                        stroke: 'rgba(255, 246, 223, 0.8)',
+                        strokeWidth: '1px',
+                        opacity:'0.1'
                     },
-                    content: "Las advertencias de Bea siguen presentes en el subconsciente de Ada aunque ella no las vea. Estos mensajes originados en antiguas discusiones de madre e hija son visibles para la espectadora pero no para Ada. Al menos hasta que se da cuenta de la realidad que ha evitado durante mucho tiempo.En el cortometraje encontraremos los pósits en la cocina, el comedor, la habitación de Ada, el jardín y el pasillo."
-                },
+                    tooltip: {
+                        content: 'Pósits',
+                    },
+                    content: 
+                        "<h1>PÓSITS</h1>Las advertencias de Bea siguen presentes en el subconsciente de Ada aunque ella no las vea. Estos mensajes originados en antiguas discusiones de madre e hija son visibles para la espectadora pero no para Ada. Al menos hasta que se da cuenta de la realidad que ha evitado durante mucho tiempo. <br/><br/>En el cortometraje encontraremos los pósits en la cocina, el comedor, la habitación de Ada, el jardín y el pasillo."
+                },          
                 {
                     id: 'lampara',
-                    circle: 20,
-                    x: 550,
-                    y: 750,
-                    tooltip: 'Lámpara',
-                    style: {
-                        backgroundColor: 'rgba(255, 255, 255)',
+                    circle: 35,
+                    x: 540,
+                    y: 800,
+                    tooltip: 'Lámpara de plasma',
+                    svgStyle: {
+                        fill: 'rgba(255, 246, 223, 0.5)',
+                        stroke: 'rgba(255, 246, 223, 0.8)',
+                        strokeWidth: '1px',
+                        opacity: '0.1'
                     },
-                    content: "Acorde con la estética y el color de OASIS LA REVISTA, éste objeto representa el falso oasis de Ada pareciéndose a la forma de un planeta. La esfera simboliza el universo que engloba las revistas, los pósters, las pastillas, la chaqueta… Es decir, la zona de confort donde vive atrapada la protagonista. En el cortometraje encontraremos la lampara de plasma en el escritorio de la habitación de Ada y posteriormente en el mercadillo."
-                },    
+                    content: 
+                    '<h1>LÁMPARA DE PLASMA</h1>Acorde con la estética y el color de <i>OASIS LA REVISTA</i>, éste objeto representa el falso oasis de Ada pareciéndose a la forma de un planeta. La esfera simboliza el universo que engloba las revistas, los pósters, las pastillas, la chaqueta… Es decir, la zona de confort donde vive atrapada la protagonista. <br/><br/>En el cortometraje encontraremos la lampara de plasma en el escritorio de la habitación de Ada y posteriormente en el mercadillo.'
+                }, 
                 {
                     id: 'revista',
-                    circle: 20,
-                    x: 1950,
-                    y: 860,
-                    tooltip: 'Revista',
-                    style: {
-                        backgroundColor: 'rgba(255, 255, 255)',
+                    polygon_px: [
+                        [1910, 960],[1900, 1060], [2000, 1085], [2015, 980] 
+                      ],
+                    svgStyle: {
+                        fill: 'rgba(255, 246, 223, 0.5)',
+                        stroke: 'rgba(255, 246, 223, 0.8)',
+                        strokeWidth: '1px',
+                        opacity:'0.1'
                     },
-                    content: "Las advertencias de Bea siguen presentes en el subconsciente de Ada aunque ella no las vea. Estos mensajes originados en antiguas discusiones de madre e hija son visibles para la espectadora pero no para Ada. Al menos hasta que se da cuenta de la realidad que ha evitado durante mucho tiempo.En el cortometraje encontraremos los pósits en la cocina, el comedor, la habitación de Ada, el jardín y el pasillo."
+                    tooltip: {
+                        content: 'Revistas',
+                    },
+                    content: 
+                        "<h1>REVISTAS</h1>El elemento principal de la historia es el conjunto de revistas <i>OASIS</i>. El medio que atrapa a Ada dentro de este universo ficticio y que provoca el enfrentamiento entre ella y su madre. Estos números semanales mantienen a Ada dormida y lejos de la realidad. <br/><br/>En el cortometraje encontraremos las revistas repetidamente en la cocina, el porche y la habitación de Ada. "
                 }
+                  
+                // {
+                //     id: 'revista',
+                //     circle: 20,
+                //     x: 1950,
+                //     y: 860,
+                //     content: "Las advertencias de Bea siguen presentes en el subconsciente de Ada aunque ella no las vea. Estos mensajes originados en antiguas discusiones de madre e hija son visibles para la espectadora pero no para Ada. Al menos hasta que se da cuenta de la realidad que ha evitado durante mucho tiempo.En el cortometraje encontraremos los pósits en la cocina, el comedor, la habitación de Ada, el jardín y el pasillo."
+                // }
             ]
         })
     }

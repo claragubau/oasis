@@ -4,16 +4,41 @@
 }
 .psv-panel-content{
   background-color: #40514d;
-
 }
-
-.psv-marker-posits{
+/* .psv-marker-posits{
   color: white;
-}
+} */
 #psv-marker-cajas{
   transition: all .5s;
 }
 #psv-marker-cajas:hover{
   opacity: 1;
-  
+}
+
+#psv-marker-poster{
+  transition: all .5s;
+}
+#psv-marker-poster:hover{
+  opacity: 1;
+}
+
+#psv-marker-posits{
+  transition: all .5s;
+}
+#psv-marker-posits:hover{
+  opacity: 1;
+}
+
+#psv-marker-lampara{
+  transition: all .5s;
+}
+#psv-marker-lampara:hover{
+  opacity: 1;
+}
+
+#psv-marker-revista{
+  transition: all .5s;
+}
+#psv-marker-revista:hover{
+  opacity: 1;
 }

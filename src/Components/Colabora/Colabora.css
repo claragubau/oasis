@@ -15,8 +15,10 @@
     font-size: 1.3vw;
     border-radius: 25px;
     margin-top: 20px;
-    display: block;
+    display: inline-block;
     font-style: italic;
+    z-index: 0;
+    position: relative;
 
     -moz-transition-duration: 0.2s;
     -webkit-transition-duration: 0.2s;
@@ -44,7 +46,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -2;
+    z-index: -10;
 }
 
 fieldset {
@@ -57,6 +59,9 @@ fieldset {
     right: 10%;
     border-style: solid;
     border-color: #40514d;
+    font-style: italic;
+    font-weight: bolder;
+    z-index: -5;
 }
 
 legend{

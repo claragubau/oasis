@@ -1,17 +1,25 @@
 html, body{
   height: 100%;
+  font-family: 'Asap';
 }
 
 @font-face{
-  font-family: 'Nunito Sans', sans-serif;
-  src: local('Nunito Sans'), url('../src/Nunito_Sans/NunitoSans-Bold.ttf'), format('truetype');
+  font-family: 'Asap', sans-serif;
+  src: local('Asap'), url('../src/Asap/Asap-Regular.ttf'), format('truetype');
 }
 
 body {
   margin: 0;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Asap', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
 }
 
+h1{
+  font-family: 'Asap';
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 5vw;
+  justify-content: center;
+}
