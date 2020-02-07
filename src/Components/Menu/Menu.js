@@ -24,16 +24,16 @@ class Menu extends Component{
                 <nav><ul>
                         <li><a href={process.env.PUBLIC_URL + "/#/"}>LA HABITACIÓN DE ADA</a></li>
                         <li><a href={process.env.PUBLIC_URL + "/#/proyecto"}>EL PROYECTO</a></li>
-                        <li><a href={process.env.PUBLIC_URL + "/#/revista"}>LA REVISTA</a></li>
+                        <li><a href={"/#/revista"}>LA REVISTA</a></li>
                         <li><a href={process.env.PUBLIC_URL + "/#/equipo"}>EQUIPO</a></li>
                         <li><a href={process.env.PUBLIC_URL + "/#/colabora"}>COLABORA</a></li>
                 </ul></nav>  
                 <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
                     <img src={logo} alt="loading"/>
-                    <div><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oasis.elproyecto/" class="button">
-                    <img src={ig} alt="loading"/>
-                        </a></div>
+                    {/* <div><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oasis.elproyecto/" class="button"> */}
+                    {/* <img src={ig} alt="loading"/>
+                        </a></div> */}
                 </div>    
             </div>
         </div>

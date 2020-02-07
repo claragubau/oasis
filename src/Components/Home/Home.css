@@ -130,3 +130,7 @@ fieldset{
   margin-left: 45%;
   margin-right: 45%;
 }
+
+.mobile{
+  background-image: url("../../images/FONS_mobile.jpg");
+}

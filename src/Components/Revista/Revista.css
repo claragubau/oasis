@@ -47,12 +47,15 @@ fieldset {
     position: fixed;
     height: 80vh;
     width: auto;
-    bottom: 5%;
+
+    top: 10vh;
+    bottom: 5vh;
     left: 10%;
     right: 10%;
-    top: 10vh;
+
     border-style: solid;
     border-color: white;
-    opacity: 0.5;
+
+    opacity: 0.8;
     z-index: -5;
 }
