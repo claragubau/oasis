@@ -1,20 +1,47 @@
-.viewer{
-  height: 50vh;
-  width: 100vw;
+.psv-panel-resizer{
+  display: none;
+  background: none;
+  width: 0px;
 }
+.psv-panel-resizer::before{
+  width: 0px;
+}
+
+.psv-panel{
+  transition-property: opacity;
+}
+
+.psv-panel-close-button{
+  left: 360px;
+  top: 20px;
+  background: none;
+}
+.psv-panel-close-button::after, .psv-panel-close-button::before{
+  left: 0px;
+  width: 24px;
+}
+
+.psv-panel--open{
+  position: absolute;
+  transition:  opacity 0.5s;
+  opacity: 0.9;
+  margin-top: 200px;
+  margin-right: 80vh;
+  bottom: 130px;
+  height: fit-content;
+}
+
 .psv-panel-content{
   background-color: #40514d;
+  margin-right: 15px;
 }
-/* .psv-marker-posits{
-  color: white;
-} */
+
 #psv-marker-cajas{
   transition: all .5s;
 }
 #psv-marker-cajas:hover{
   opacity: 1;
 }
-
 #psv-marker-poster{
   transition: all .5s;
 }
@@ -71,9 +98,4 @@ fieldset{
   border-color: white;
   opacity: 0.5;
   z-index: 2;
-}
-
-legend{
-  /* background-image: url('../../images/logo.png'); */
-  width: 45px;
 }

@@ -74,21 +74,29 @@
 .esquerra{
   position: relative;
   color: white;
-  width: 45%;
+  width: 45.8%;
   height: 60vh;
   margin-left: 10vh;
   margin-top: -35vh;
   border-right: solid white;
 }
 
-fieldset{
+/* fieldset{
+  margin-top: 15px;
+  position: fixed;
   height: 80vh;
-  top: 10vh;
-}
+  width: auto;
+  top: 15vh;
+  bottom: 5vh;
+  left: 10%;
+  right: 10%;
+} */
 
 .esquerra img{  
-  margin-top: 180px;
-  margin-left: 150px;
-  height: 150px;
+  margin-top: 90px;
+  margin-left: 300px;
+  height: 80px;
   width: auto;
+  position: relative;
+  z-index: 0;
 }

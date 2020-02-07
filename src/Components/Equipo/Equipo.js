@@ -6,7 +6,7 @@ import Lluis from '../../images/equipo/lluis.gif'
 import Marta from '../../images/equipo/marta.gif'
 import Pau from '../../images/equipo/pau.gif'
 import './equipo.css'
-import Menu from '../Menu/Menu'
+import Menu from '../Menu/Menu.js'
 import btn from '../../images/bverd.png'
 
 

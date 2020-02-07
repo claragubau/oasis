@@ -27,10 +27,9 @@ class Menu extends Component{
                         <li><a href="/equipo">EQUIPO</a></li>
                         <li><a href="/colabora">COLABORA</a></li>
                 </ul></nav>  
+                <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
-                    {/* <fieldset>
-                        <img src={logo} />
-                    </fieldset> */}
+                    <img src={logo} />
                 </div>    
             </div>
         </div>
