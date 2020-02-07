@@ -83,7 +83,7 @@
 
 fieldset{
   height: 80vh;
-  /* margin-top: 10vh; */
+  top: 10vh;
 }
 
 .esquerra img{  

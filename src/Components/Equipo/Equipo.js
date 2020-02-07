@@ -7,6 +7,7 @@ import Marta from '../../images/equipo/marta.gif'
 import Pau from '../../images/equipo/pau.gif'
 import './equipo.css'
 import Menu from '../Menu/Menu'
+import btn from '../../images/Reparto_Botó.png'
 
 
 function Equipo(){
@@ -16,7 +17,7 @@ function Equipo(){
             <Menu/>
             <fieldset>
                 <legend align="center">EQUIPO</legend>
-                <div style={{position:"relative"}}><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oasis.larevista/" class="button"><i><b>MAKING OF</b></i></a></div>
+                <div style={{position:"relative"}}><a target="_blank" rel="noopener noreferrer" href="https://youtu.be/2wesHzNkLEE" class="ebutton"><i><b>MAKING OF</b></i></a></div>
             </fieldset>
             <div className="grid-container">
                 <div className="column">
@@ -41,21 +42,26 @@ function Equipo(){
                         <img src = {Isi} alt="loading..."/>
                     </div>
                     <div className="row">
-                        <div className="overlayequipo"><div className="text"> LLUÍS CASCALES </div>
-                        <div className="subtext"> Ayudante de Dirección </div></div>
-                        <img src = {Lluis} alt="loading..."/>
-                    </div>
-                </div>
-                <div className="column">
-                    <div className="row">
                         <div className="overlayequipo"><div className="text"> MARTA CÁMARA </div>
                         <div className="subtext"> Dirección de Producción </div></div>
                         <img src = {Marta} alt="loading..."/>
                     </div>
+                </div>
+                <div className="column">
+
                     <div className="row">
+                        <div className="overlayequipo"><div className="text"> LLUÍS CASCALES </div>
+                        <div className="subtext"> Ayudante de Dirección </div></div>
+                        <img src = {Lluis} alt="loading..."/>
+                    </div>
+                    <div className="row">
+                        <button onClick={() => {window.scroll(0, 700);}}>
+                            <img src={btn} alt="loding..."/>
+                        </button>
                         <div className="overlayequipo"><div className="text"> PAU SIMON </div>
                         <div className="subtext"> Dirección de Fotografia y Responsable de Transmedia </div></div>
                         <img src = {Pau} alt="loading..."/>
+
                     </div>
                 </div>
             </div>
