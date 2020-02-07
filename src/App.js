@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch, BrowserRouter} from 'react-router-dom'
+import {Route, Switch, BrowserRouter, HashRouter} from 'react-router-dom'
 
 //lazy loading the components
 
@@ -18,7 +18,7 @@ function App() {
     <React.Suspense fallback={<div></div>}> 
     <div>
       {/* <Menu/> */}
-      <BrowserRouter>
+      <HashRouter basename="/">
       <Switch>
       <Route path="/" exact component={Home}/>
       <Route path="/equipo" exact component={Equipo}/>
@@ -26,7 +26,7 @@ function App() {
       <Route path="/revista" exact component={Revista}/>
       <Route path="/proyecto" exact component={Proyecto}/>
       </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
     </React.Suspense>
   );

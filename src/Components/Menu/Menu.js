@@ -22,11 +22,11 @@ class Menu extends Component{
         return <div> 
             <div class="overlaymenu">
                 <nav><ul>
-                        <li><a href="/">LA HABITACIÓN DE ADA</a></li>
-                        <li><a href="/proyecto">EL PROYECTO</a></li>
-                        <li><a href="/revista">LA REVISTA</a></li>
-                        <li><a href="/equipo">EQUIPO</a></li>
-                        <li><a href="/colabora">COLABORA</a></li>
+                        <li><a href={process.env.PUBLIC_URL + "/#/"}>LA HABITACIÓN DE ADA</a></li>
+                        <li><a href={process.env.PUBLIC_URL + "/#/proyecto"}>EL PROYECTO</a></li>
+                        <li><a href={process.env.PUBLIC_URL + "/#/revista"}>LA REVISTA</a></li>
+                        <li><a href={process.env.PUBLIC_URL + "/#/equipo"}>EQUIPO</a></li>
+                        <li><a href={process.env.PUBLIC_URL + "/#/colabora"}>COLABORA</a></li>
                 </ul></nav>  
                 <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
