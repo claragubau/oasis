@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa112a88a38f504e26ae548287924075",
+    "revision": "a58abf9d2bb93bf3db155406f4aee6bb",
     "url": "/oasis/index.html"
   },
   {
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oasis/static/css/9.faf38ff0.chunk.css"
   },
   {
-    "revision": "8aa803ad8eb456a5d514",
+    "revision": "1b3a77de709b6ec1e70a",
     "url": "/oasis/static/css/main.9ea0a72c.chunk.css"
   },
   {
-    "revision": "7308d9cf0614c6a03cbb",
-    "url": "/oasis/static/js/2.3fc79180.chunk.js"
+    "revision": "6bc229f32bc91ffdc7cc",
+    "url": "/oasis/static/js/2.00eb1abb.chunk.js"
   },
   {
     "revision": "e2202931a3632a715196",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oasis/static/js/9.71e63214.chunk.js"
   },
   {
-    "revision": "8aa803ad8eb456a5d514",
-    "url": "/oasis/static/js/main.28c74fee.chunk.js"
+    "revision": "1b3a77de709b6ec1e70a",
+    "url": "/oasis/static/js/main.44966b73.chunk.js"
   },
   {
     "revision": "ac59903c531e6712bce1",
