@@ -31,9 +31,9 @@ class Menu extends Component{
                 <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
                     <img src={logo} alt="loading"/>
-                    <div className="ig">
-                        <img src={ig} alt="loading"/>
-                    </div>
+                    <div><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oasis.elproyecto/" class="button">
+                    <img src={ig} alt="loading"/>
+                        </a></div>
                 </div>    
             </div>
         </div>

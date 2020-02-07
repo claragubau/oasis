@@ -21,14 +21,18 @@ h3{
 }
   
 .backproyecto {
-  background-image: url("../../images/Pattern_Verd.jpg");
-  position: absolute;
-  width: 100%;
+  background-image: url("../../images/fmenu.jpg");
+  position: fixed;
+  color: white;
+	visibility:visible;
+	width: 100%;
   height: 100%;
-  top: 0px;
-  left: 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  /* font-size: 5%; */
+	top: 0;
+  left: 0;
+  display: inline-block;
 }
 
 .backreparto{
