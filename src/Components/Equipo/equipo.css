@@ -2,22 +2,27 @@ fieldset{
   position: fixed;
   height: 80vh;
   width: auto;
+
   top: 10vh;
   bottom: 5vh;
   left: 10%;
   right: 10%;
+
   border-style: solid;
-  z-index: -5;
   border-color: white;
+
   opacity: 0.8;
+  z-index: -5;
+
 }
 
 legend{
   color: white;
-  font-size: xx-large;
   font-weight: bolder;
+  font-size: xx-large;
   font-style: italic;
 }
+
 .grid-container{
   display: flex;
   flex-wrap: wrap;

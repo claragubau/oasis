@@ -24,15 +24,17 @@ h3{
   background-image: url("../../images/fmenu.jpg");
   position: fixed;
   color: white;
-	visibility:visible;
+  visibility:visible;
+  
 	width: 100%;
   height: 100%;
+
   margin-left: auto;
   margin-right: auto;
-  /* font-size: 5%; */
 	top: 0;
   left: 0;
   display: inline-block;
+  z-index: 0;
 }
 
 .backreparto{
@@ -48,7 +50,7 @@ h3{
 }
 
 .textreparto{
-  margin-top: 30%;
+  margin-top: 60vh;
   margin-left: 15%;
   color: white;
   width: 15%;
@@ -58,22 +60,24 @@ fieldset {
   position: fixed;
   height: 80vh;
   width: auto;
+
   top: 10vh;
   bottom: 5vh;
   left: 10%;
   right: 10%;
+
   border-style: solid;
-  z-index: 0;
   border-color: white;
+
   opacity: 0.8;
+  z-index: -5;
 }
 
 legend{
   color: white;
-  font-size: 30px;
-  font-weight: 900;
+  font-weight: bolder;
+  font-size: xx-large;
   font-style: italic;
-  width: 200px;
 }
 
 

@@ -54,22 +54,24 @@ fieldset {
     position: fixed;
     height: 80vh;
     width: auto;
-    bottom: 5%;
+
+    top: 10vh;
+    bottom: 5vh;
     left: 10%;
     right: 10%;
-    top: 10vh;
+    
     border-style: solid;
     border-color: white;
-    font-style: italic;
-    font-weight: bolder;
+
+    opacity: 0.8;
     z-index: -5;
-    opacity: 2;
 }
 
 legend{
     color: white;
-    font-size: 35px;
     font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
 }
 
 .logo{

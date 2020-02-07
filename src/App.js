@@ -13,6 +13,7 @@ const Menu = React.lazy(() => import('./Components/Menu/Menu'))
 // const renderLoader = () => <div className="loader"></div>;
 
 function App() {
+  
   //TODO: en el fallback pots posar algu per si tardés a carregar alguna pagina tipus un spinner
   return (   
     <React.Suspense fallback={<div></div>}> 

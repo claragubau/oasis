@@ -10,11 +10,13 @@ import logo from '../../images/logo.png'
 
 export default class SphereComponent extends Component {
     constructor(props) {
-        super(props)
+        super(props);
+        this.state = {width:window.innerWidth};
+        
         this.divStyle = {
-          width: '100%',
-          height: '625px',
-          top: '25px'
+          width: '100vw',
+          height: '100vh',
+          top: '5vh'
         };
         this.sphereDiv = element => {
             this.photoSphereViewer = element;
@@ -136,20 +138,36 @@ export default class SphereComponent extends Component {
     }
 
     render() {
-        return (
-        <div>
-            
-            <div className="ending">
-                <img src={logo} alt="loading..."/>
-                <p>
-                Encuentra los 5 elementos escondidos</p>
+        let isMobile = window.innerWidth < 1000;
+        if(isMobile){
+            return(
+                <div>
+                    <div >
+                        <div className="ending">
+                            <p style={{fontSize:'50px'}}>LA PAGINA ESTA PENSADA PER MOVIL</p>
+                        </div>
+                        <div style={this.divStyle} ref={this.sphereDiv} id="viewer">
+                            <div ref={node => this.subDiv = node} style={this.divStyle}/>
+                        </div>
+                    </div>
+                </div>
+            )
+        }
+        else {
+            console.log('sphere')
+            return (
+            <div>
+                <div className="ending">
+                    <img src={logo} alt="loading..."/>
+                    <p>Encuentra los 5 elementos escondidos</p>
+                </div>
+                <Menu/>
+                <fieldset/>
+                <div style={this.divStyle} ref={this.sphereDiv} id="viewer">
+                    <div ref={node => this.subDiv = node} style={this.divStyle}/>
+                </div>
             </div>
-            <Menu/>
-            <fieldset/>
-            <div style={this.divStyle} ref={this.sphereDiv} id="viewer">
-                <div ref={node => this.subDiv = node} style={this.divStyle}/>
-            </div>
-        </div>
-        )
+            )
+        }
     }
 }
