@@ -1,22 +1,22 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d12c5f7ca8783a39f1227b7d5491fd34",
+    "revision": "6e31b40a0d18923db85242ac54661128",
     "url": "/oasis/index.html"
   },
   {
-    "revision": "42fa6f5e77ad9ef693fa",
+    "revision": "e2202931a3632a715196",
     "url": "/oasis/static/css/3.19bac989.chunk.css"
   },
   {
-    "revision": "9bd8144716ee69897f54",
+    "revision": "1715afd8335351e452da",
     "url": "/oasis/static/css/4.635c143d.chunk.css"
   },
   {
-    "revision": "e4f4be5386f54912df2b",
+    "revision": "17a1277c66841c607536",
     "url": "/oasis/static/css/5.c4353afd.chunk.css"
   },
   {
-    "revision": "d22883ac6596be0e8f3f",
+    "revision": "7f2f5629d8acbeeee380",
     "url": "/oasis/static/css/6.537adc8f.chunk.css"
   },
   {
@@ -24,11 +24,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oasis/static/css/7.6c768c0b.chunk.css"
   },
   {
-    "revision": "8ef0e4fdebc217867228",
+    "revision": "4ef007f67f75fbeafb29",
     "url": "/oasis/static/css/8.b742c376.chunk.css"
   },
   {
-    "revision": "fb8caf66fa9516a73091",
+    "revision": "63cc0c3327adc4528e91",
     "url": "/oasis/static/css/9.faf38ff0.chunk.css"
   },
   {
@@ -40,40 +40,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oasis/static/js/2.00eb1abb.chunk.js"
   },
   {
-    "revision": "42fa6f5e77ad9ef693fa",
-    "url": "/oasis/static/js/3.378cc734.chunk.js"
+    "revision": "e2202931a3632a715196",
+    "url": "/oasis/static/js/3.396e8d61.chunk.js"
   },
   {
-    "revision": "9bd8144716ee69897f54",
-    "url": "/oasis/static/js/4.ac6b97ed.chunk.js"
+    "revision": "1715afd8335351e452da",
+    "url": "/oasis/static/js/4.4a960663.chunk.js"
   },
   {
-    "revision": "e4f4be5386f54912df2b",
-    "url": "/oasis/static/js/5.339dc5fe.chunk.js"
+    "revision": "17a1277c66841c607536",
+    "url": "/oasis/static/js/5.518f7ee7.chunk.js"
   },
   {
-    "revision": "d22883ac6596be0e8f3f",
-    "url": "/oasis/static/js/6.56c57c42.chunk.js"
+    "revision": "7f2f5629d8acbeeee380",
+    "url": "/oasis/static/js/6.516c58fb.chunk.js"
   },
   {
     "revision": "98be6bb08cb28c908e4b",
     "url": "/oasis/static/js/7.d7c35d5e.chunk.js"
   },
   {
-    "revision": "8ef0e4fdebc217867228",
-    "url": "/oasis/static/js/8.155cef69.chunk.js"
+    "revision": "4ef007f67f75fbeafb29",
+    "url": "/oasis/static/js/8.466475b1.chunk.js"
   },
   {
-    "revision": "fb8caf66fa9516a73091",
-    "url": "/oasis/static/js/9.10f805bd.chunk.js"
+    "revision": "63cc0c3327adc4528e91",
+    "url": "/oasis/static/js/9.71e63214.chunk.js"
   },
   {
     "revision": "557e0b265e855b52d405",
     "url": "/oasis/static/js/main.18d4a298.chunk.js"
   },
   {
-    "revision": "cbc1ea127cfccd2e3468",
-    "url": "/oasis/static/js/runtime-main.d7faadfe.js"
+    "revision": "ac59903c531e6712bce1",
+    "url": "/oasis/static/js/runtime-main.0585d37c.js"
   },
   {
     "revision": "662c9dfa6ac035f8c97ccc2a901f5e32",
