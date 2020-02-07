@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/oasis/static/css/main.9ea0a72c.chunk.css",
-    "main.js": "/oasis/static/js/main.44966b73.chunk.js",
-    "main.js.map": "/oasis/static/js/main.44966b73.chunk.js.map",
+    "main.js": "/oasis/static/js/main.54609d8c.chunk.js",
+    "main.js.map": "/oasis/static/js/main.54609d8c.chunk.js.map",
     "runtime-main.js": "/oasis/static/js/runtime-main.0585d37c.js",
     "runtime-main.js.map": "/oasis/static/js/runtime-main.0585d37c.js.map",
     "static/js/2.00eb1abb.chunk.js": "/oasis/static/js/2.00eb1abb.chunk.js",
@@ -29,7 +29,7 @@
     "static/js/9.71e63214.chunk.js": "/oasis/static/js/9.71e63214.chunk.js",
     "static/js/9.71e63214.chunk.js.map": "/oasis/static/js/9.71e63214.chunk.js.map",
     "index.html": "/oasis/index.html",
-    "precache-manifest.6858e4a492ca68a3f1adc25a966cb09e.js": "/oasis/precache-manifest.6858e4a492ca68a3f1adc25a966cb09e.js",
+    "precache-manifest.316be1dd53747d475ae39299c1e7ece3.js": "/oasis/precache-manifest.316be1dd53747d475ae39299c1e7ece3.js",
     "service-worker.js": "/oasis/service-worker.js",
     "static/css/3.19bac989.chunk.css.map": "/oasis/static/css/3.19bac989.chunk.css.map",
     "static/css/4.635c143d.chunk.css.map": "/oasis/static/css/4.635c143d.chunk.css.map",
@@ -61,6 +61,6 @@
     "static/js/runtime-main.0585d37c.js",
     "static/js/2.00eb1abb.chunk.js",
     "static/css/main.9ea0a72c.chunk.css",
-    "static/js/main.44966b73.chunk.js"
+    "static/js/main.54609d8c.chunk.js"
   ]
 }
