@@ -34,6 +34,7 @@
 .psv-panel-content{
   background-color: #40514d;
   margin-right: 15px;
+  color: white;
 }
 
 #psv-marker-cajas{
@@ -98,4 +99,34 @@ fieldset{
   border-color: white;
   opacity: 0.5;
   z-index: 2;
+}
+
+.ending{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ending p{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: none;
+  color: white;
+  font-size: 14px;
+}
+
+.ending img{
+  height: 40px;
+  position: fixed;
+  margin-top: 90px;
+  z-index: 3;
+  opacity: 0.8;
+  margin-left: 45%;
+  margin-right: 45%;
 }

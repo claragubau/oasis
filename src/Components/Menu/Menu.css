@@ -81,17 +81,6 @@
   border-right: solid white;
 }
 
-/* fieldset{
-  margin-top: 15px;
-  position: fixed;
-  height: 80vh;
-  width: auto;
-  top: 15vh;
-  bottom: 5vh;
-  left: 10%;
-  right: 10%;
-} */
-
 .esquerra img{  
   margin-top: 90px;
   margin-left: 300px;
@@ -99,4 +88,10 @@
   width: auto;
   position: relative;
   z-index: 0;
+}
+
+.ig img{
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 390px; 
 }

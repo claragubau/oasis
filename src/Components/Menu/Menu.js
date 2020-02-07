@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { HamburgerButton } from 'react-hamburger-button';
 import './Menu.css'
 import logo from '../../images/logo.png'
+import ig from '../../images/igb.png'
 class Menu extends Component{ 
 
     constructor() {
@@ -29,7 +30,10 @@ class Menu extends Component{
                 </ul></nav>  
                 <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
-                    <img src={logo} />
+                    <img src={logo} alt="loading"/>
+                    <div className="ig">
+                        <img src={ig} alt="loading"/>
+                    </div>
                 </div>    
             </div>
         </div>
