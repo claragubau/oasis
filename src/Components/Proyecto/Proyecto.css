@@ -1,40 +1,42 @@
 /*-----PROYECTO------*/
-h3{
+.stitle{
   color: white;
-  margin-bottom: -5px;
-  margin-top: -5px;
-  font-size: x-large;
-  margin-left: -5px;
   display: inline-block;
   font-weight: bolder;
+  font-size: x-large;
 }
 
-.trailer{
+.stext{
+  margin-left: 1vw;
+  text-align: justify;
+}
+
+.sinopsis{
   position: relative;
   color: white;
-  width: 20%;
-  left: 25%;
-  top: 0;
+
+  width: 20vw;
+  left: 25vw;
   margin-top: 20vh;
-  text-size-adjust: auto;
-  /* font-weight: bolder; */
 }
   
 .backproyecto {
   background-image: url("../../images/fmenu.jpg");
-  position: fixed;
   color: white;
   visibility:visible;
   
 	width: 100%;
   height: 100%;
+    
+  display: inline-block;
+  z-index: 0;
 
+  position: fixed;
   margin-left: auto;
   margin-right: auto;
 	top: 0;
   left: 0;
-  display: inline-block;
-  z-index: 0;
+
 }
 
 .backreparto{
@@ -42,7 +44,7 @@ h3{
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 100%;
+  top: 100vh;
   left: 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,10 +52,10 @@ h3{
 }
 
 .textreparto{
-  margin-top: 60vh;
-  margin-left: 15%;
+  margin-top: 57.5vh;
+  margin-left: 15vw;
   color: white;
-  width: 15%;
+  width: 15vw;
 }
 
 fieldset {
@@ -63,8 +65,8 @@ fieldset {
 
   top: 10vh;
   bottom: 5vh;
-  left: 10%;
-  right: 10%;
+  left: 10vw;
+  right: 10vw;
 
   border-style: solid;
   border-color: white;
@@ -80,29 +82,18 @@ legend{
   font-style: italic;
 }
 
-
-/*-------------------------------------------------*/
-
-.long {
-  width: 100%;
-  background-color: #010e19;
-}
- 
-.container {
-  height: 400px;
-}
-
-button{
+.pbutton{
   animation: MoveUpDown 1.25s linear infinite;
   border: none;
   text-decoration: none;
   background: none;
-  margin-left: 780px;
-  margin-top: 240px;
+  margin-left: 56vw;
+  margin-top: 42vh;
   position: relative;
 }
-button img{
-  width: 50px;
+.pbutton img{
+  width: 3.5vw;
+  height: auto;
 }
 
 @keyframes MoveUpDown {

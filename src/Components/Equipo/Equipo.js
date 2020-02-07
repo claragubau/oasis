@@ -26,25 +26,25 @@ function Equipo(){
                             <div className="text">DAVID ALSINA</div>
                             <div className="subtext">Dirección y Guión</div>
                         </div>
-                        <img src = {David} alt="loading..." />
+                        <img src = {David} alt="loading..." className="eimg"/>
                     </div>
                     <div className="row">
                         <div className="overlayequipo"><div className="text">MARIA BOQUERA</div> 
                         <div className="subtext">Dirección de Arte y Diseño Gráfico</div>
                         </div>
-                        <img src = {Buke} alt="loading..."/>
+                        <img src = {Buke} alt="loading..." className="eimg"/>
                     </div>
                 </div>
                 <div className="column">
                     <div className="row">
                         <div className="overlayequipo"><div className="text">ISABEL PÉREZ</div>
                         <div className="subtext">Dirección de Postproducción y Responsable de Sonido</div></div>
-                        <img src = {Isi} alt="loading..."/>
+                        <img src = {Isi} alt="loading..." className="eimg"/>
                     </div>
                     <div className="row">
                         <div className="overlayequipo"><div className="text"> MARTA CÁMARA </div>
                         <div className="subtext"> Dirección de Producción </div></div>
-                        <img src = {Marta} alt="loading..."/>
+                        <img src = {Marta} alt="loading..." className="eimg"/>
                     </div>
                 </div>
                 <div className="column">
@@ -52,18 +52,18 @@ function Equipo(){
                     <div className="row">
                         <div className="overlayequipo"><div className="text"> LLUÍS CASCALES </div>
                         <div className="subtext"> Ayudante de Dirección </div></div>
-                        <img src = {Lluis} alt="loading..."/>
+                        <img src = {Lluis} alt="loading..." className="eimg"/>
                     </div>
                     <div className="row">
-                        <button onClick={() => {window.scroll(0, 700);}}>
-                            <img src={btn} alt="loding..."/>
-                        </button>
                         <div className="overlayequipo"><div className="text"> PAU SIMON </div>
                         <div className="subtext"> Dirección de Fotografia y Responsable de Transmedia </div></div>
-                        <img src = {Pau} alt="loading..."/>
+                        <img src = {Pau} alt="loading..." className="eimg"/>
 
                     </div>
                 </div>
+                <button className="bdown" onClick={() => {window.scroll(0, 700);}}>
+                    <img src={btn} alt="loding..."/>
+                </button>
             </div>
 
             <div className="backequipo">

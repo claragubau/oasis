@@ -21,7 +21,7 @@ function Colabora() {
             <div className="centro">
                 <img className="paypal" src={Paypal} alt="." />
                 <a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/pools/c/8jk1MkTAX5"
-                    class="button"><b><i>COLABORA</i></b></a>
+                    class="cbutton"><b><i>COLABORA</i></b></a>
                 <div className="patrocinadors">
                     <div className="ctext">
                         Contamos con la colaboración de

@@ -1,29 +1,33 @@
-.button{
+.revistabutton{
     background-color: #ea1488;
     color: white;
     border: none;
-    padding: 15px 40px;
+    display: inline-block;
+
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    border-radius: 15px;
-    margin-left: 40vw;
+
+    font-size: 1.4rem;
+    border-radius: 3vh;
+
+    margin-left: 42.5vw;
+    margin-right: 40vw;
     margin-top: 70vh;
+    padding: 2.5vh 6vh;
+
     opacity: 0.5;
     position: absolute;
     z-index: 0;
 
-
+    transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
     -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
     box-shadow:  0 0 15px  rgba(0,0,0,0.4);
     -moz-box-shadow: 0 0 15px  rgba(0,0,0,0.4);
     -webkit-box-shadow: 0 0 15px  rgba(0,0,0,0.4);
 }
 
-.button:hover {
+.revistabutton:hover {
     background-color: rgb(16, 63, 143);
     color: #ea1488;
 }
@@ -34,7 +38,7 @@
     position: fixed;
     width: 100%;
     height: 120%;
-    top: -60px;
+    top: 0;
     left: 0px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,8 +54,8 @@ fieldset {
 
     top: 10vh;
     bottom: 5vh;
-    left: 10%;
-    right: 10%;
+    left: 10vh;
+    right: 10vh;
 
     border-style: solid;
     border-color: white;

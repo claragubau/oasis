@@ -92,13 +92,16 @@ fieldset{
   position: fixed;
   height: 80vh;
   width: auto;
-  bottom: 5%;
-  left: 10%;
-  right: 10%;
+
+  top: 10vh;
+  bottom: 5vh;
+  left: 10vw;
+  right: 10vw;
+
   border-style: solid;
   border-color: white;
+
   opacity: 0.5;
-  z-index: 2;
 }
 
 .ending{
@@ -112,13 +115,13 @@ fieldset{
   height: 100%;
   position: fixed;
   z-index: 1;
-  margin-top: 560px;
+  margin-top: 85vh;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   background: none;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .ending img{

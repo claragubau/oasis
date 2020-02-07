@@ -146,6 +146,7 @@ export default class SphereComponent extends Component {
                         <div className="ending">
                             <p style={{fontSize:'50px'}}>LA PAGINA ESTA PENSADA PER MOVIL</p>
                         </div>
+                        <fieldset style={{zIndex:2}}/>
                         <div style={this.divStyle} ref={this.sphereDiv} id="viewer">
                             <div ref={node => this.subDiv = node} style={this.divStyle}/>
                         </div>
@@ -162,7 +163,7 @@ export default class SphereComponent extends Component {
                     <p>Encuentra los 5 elementos escondidos</p>
                 </div>
                 <Menu/>
-                <fieldset/>
+                <fieldset style={{zIndex:2}}/>
                 <div style={this.divStyle} ref={this.sphereDiv} id="viewer">
                     <div ref={node => this.subDiv = node} style={this.divStyle}/>
                 </div>

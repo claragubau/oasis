@@ -12,14 +12,14 @@ class Proyecto extends Component{
             <fieldset>
                 <legend align="center">EL PROYECTO</legend>
             </fieldset>
-            <div className="trailer">
-                <h3>SINOPSIS</h3>
-                <p>
+            <div className="sinopsis">
+                <div className="stitle">SINOPSIS</div>
+                <div className="stext">
                     Ada se siente cómoda viviendo encerrada en su propio
                     mundo y al margen de la realidad. Tendrá que despertar 
-                    para vivir la aceptación y encontrar su verdadero OASIS.
-                </p>
-                <button onClick={() => {window.scroll(0, 700);}}>
+                    para vivir la aceptación y encontrar su verdadero <i>OASIS</i>.
+                </div>
+                <button className="pbutton" onClick={() => {window.scroll(0, 700);}}>
                     <img src={btn} alt="loding..."/>
                 </button>
             </div>
