@@ -7,7 +7,7 @@ import Marta from '../../images/equipo/marta.gif'
 import Pau from '../../images/equipo/pau.gif'
 import './equipo.css'
 import Menu from '../Menu/Menu'
-import btn from '../../images/Reparto_Botó.png'
+import btn from '../../images/bverd.png'
 
 
 function Equipo(){
