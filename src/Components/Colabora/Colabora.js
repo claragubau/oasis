@@ -1,7 +1,6 @@
 import React from 'react'
 import Paypal from '../../images/paypal.png'
 import './Colabora.css'
-// import logo from './colabimg/ologo.png'
 import petit from './colabimg/logpetit.png'
 import mig from './colabimg/logmig.png'
 import gran from './colabimg/logran.png'

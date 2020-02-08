@@ -143,8 +143,9 @@ export default class SphereComponent extends Component {
             return(
                 <div>
                     <div >
-                        <div className="ending">
-                            <p style={{fontSize:'50px'}}>LA PAGINA ESTA PENSADA PER MOVIL</p>
+                        <div className="mobileending">
+                            <img src={logo} alt="loading..." className="mobilelogo"/>
+                            <p>EL CONTENIDO DE ESTA PÁGINA WEB ES EXCLUSIVO PARA ORDENADOR</p>
                         </div>
                         <fieldset style={{zIndex:2}}/>
                         <div style={this.divStyle} ref={this.sphereDiv} id="viewer">

@@ -54,8 +54,8 @@ fieldset {
 
     top: 10vh;
     bottom: 5vh;
-    left: 10vh;
-    right: 10vh;
+    left: 10vw;
+    right: 10vw;
 
     border-style: solid;
     border-color: white;

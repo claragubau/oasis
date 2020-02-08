@@ -25,15 +25,14 @@
   position: absolute;
   transition:  opacity 0.5s;
   opacity: 0.9;
-  margin-top: 200px;
-  margin-right: 80vh;
-  bottom: 130px;
+  margin-top: 25vh;
+  margin-right: 35vw;
+  bottom: 20vh;
   height: fit-content;
+  background-color: #40514d;
 }
 
 .psv-panel-content{
-  background-color: #40514d;
-  margin-right: 15px;
   color: white;
 }
 
@@ -125,13 +124,40 @@ fieldset{
 }
 
 .ending img{
-  height: 40px;
+  height: 7vh;
   position: fixed;
-  margin-top: 90px;
+  margin-top: 13vh;
   z-index: 3;
   opacity: 0.8;
-  margin-left: 45%;
-  margin-right: 45%;
+  margin-left: 46vw;
+}
+
+.mobileending{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.mobileending p{
+  width: 60vw;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 50vh;
+  margin-left: 20vw;
+  text-align: center;
+  background: none;
+  color: white;
+  font-size: 1.5vh;
+}
+
+.mobilelogo{
+  height: 5vh;
+  position: fixed;
+  margin-top: 42.5vh;
+  z-index: 3;
+  opacity: 0.8;
+  margin-left: 35vw;
 }
 
 .mobile{

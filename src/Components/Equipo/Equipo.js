@@ -61,7 +61,7 @@ function Equipo(){
 
                     </div>
                 </div>
-                <button className="bdown" onClick={() => {window.scroll(0, 700);}}>
+                <button className="bdown" onClick={() => {window.scroll(0, 1000);}}>
                     <img src={btn} alt="loding..."/>
                 </button>
             </div>
@@ -80,7 +80,7 @@ function Equipo(){
                         <div className="first">Dirección de Arte y Diseño Gráfico</div>
                         <div className="second">MARIA BOQUERA</div>
                         <div className="first">Ayudantes de Arte</div>
-                        <div className="second">VÍCTOR GARCIA<br/>MÒNICA FORNELLS</div>
+                        <div className="second">VÍCTOR GARCIA<br/>MÒNICA FORNELS<br/>IRENE BARROSO</div>
                         <div className="first">Maquillaje y Peluquería</div>
                         <div className="second">ALICE MARTOS<br/>MªPILAR GUERRERO</div>
                         <div className="first">Vestuario</div>
@@ -105,8 +105,8 @@ function Equipo(){
                        <div className="second">PABLO RUIZ</div>
                        <div className="first">Editor de Sonido</div>
                        <div className="second">HANS LUDWIG</div> 
-                       <div className="first">Ayudantes de Postproducción de Sonido</div>
-                        <div className="second">MANEL GALLART<br/>LLUÍS CASCALES</div>
+                       <div className="first">Ayudantes de Edición de Sonido</div>
+                        <div className="second">LLUÍS CASCALES</div>
                         <div className="first">Making of</div>
                         <div className="second">JOAN CAROLÀ</div>
                     </div> 
@@ -126,7 +126,7 @@ function Equipo(){
                         <div className="first">Eléctricas</div>
                         <div className="second">RICARD PALET<br/>JÚLIA GONZÀLEZ</div>
                         <div className="first">Foto fija</div>
-                        <div className="second">MARTÍ MENENDEZ</div>
+                        <div className="second">MARTÍ MENENDEZ<br/>PAU SIMON</div>
                         <div className="first">Programación Web</div>
                         <div className="second">CLARA GUBAU</div>
                     </div>
