@@ -83,11 +83,12 @@
 
 .lgo{  
   margin-top: 15vh;
-  margin-left: 26vw;
   height: 13vh;
   width: auto;
   position: relative;
   z-index: 0;
+  float: right;
+  margin-left: 3vw;
 }
 
 fieldset{

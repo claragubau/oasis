@@ -31,11 +31,7 @@ class Menu extends Component{
                 </ul></nav>  
                 <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
-                    <img src={logo} alt="loading" className="lgo"/>
-
-                        {/* <a target="_blank" rel="noopener noferrer" href="https://www.instagram.com/oasis.elproyecto/">
-                            <img src={ig} alt="loding..."/>
-                        </a> */}
+                    <img src={logo} alt="loading" className="lgo"/>}
                     <div className="imageBox">
                         <div className="imageInn">
                             <img src={ig} alt="loading" className="igg"/>
