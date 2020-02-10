@@ -19,7 +19,7 @@ class Proyecto extends Component{
                     mundo y al margen de la realidad. Tendrá que despertar 
                     para vivir la aceptación y encontrar su verdadero <i>OASIS</i>.
                 </div>
-                <button className="pbutton" onClick={() => {window.scroll(0, 700);}}>
+                <button className="pbutton" onClick={() => {window.scroll(0, 1100);}}>
                     <img src={btn} alt="loding..."/>
                 </button>
             </div>

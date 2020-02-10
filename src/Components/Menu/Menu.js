@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { HamburgerButton } from 'react-hamburger-button';
 import './Menu.css'
-import logo from '../../images/logo.png'
+import logo from '../../images/LOGOTIP_WEB.png'
 import ig from '../../images/igb.png'
 class Menu extends Component{ 
 
@@ -30,7 +30,7 @@ class Menu extends Component{
                 </ul></nav>  
                 <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
-                    <img src={logo} alt="loading"/>
+                    <img src={logo} alt="loading" className="lgo"/>
                     {/* <div><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oasis.elproyecto/" class="button"> */}
                     {/* <img src={ig} alt="loading"/>
                         </a></div> */}

@@ -28,9 +28,18 @@
   margin-top: 25vh;
   margin-right: 35vw;
   font-size: x-large;
-  bottom: 20vh;
+  bottom: 21vh;
   height: fit-content;
   background-color: #40514d;
+}
+
+.psv-tooltip {
+  background-color: #40514d;
+  background: #40514d;
+}
+
+.psv-tooltip-content{
+  font: 14px Asap;
 }
 
 .psv-panel-content{
@@ -80,6 +89,7 @@ h1{
   font-weight: bolder;
   font-style: italic;
   text-align: center;
+  font-size: xx-large;
 }
 p{
   font-family:'Asap'; 
