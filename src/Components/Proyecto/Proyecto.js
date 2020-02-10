@@ -13,13 +13,15 @@ class Proyecto extends Component{
                 <legend align="center">EL PROYECTO</legend>
             </fieldset>
             <div className="sinopsis">
-                <div className="stitle">SINOPSIS</div>
-                <div className="stext">
-                    Ada se siente cómoda viviendo encerrada en su propio
-                    mundo y al margen de la realidad. Tendrá que despertar 
-                    para vivir la aceptación y encontrar su verdadero <i>OASIS</i>.
+                <div className="sinopsisAll">
+                    <div className="stitle">SINOPSIS</div>
+                    <div className="stext">
+                        Ada se siente cómoda viviendo encerrada en su propio
+                        mundo y al margen de la realidad. Tendrá que despertar 
+                        para vivir la aceptación y encontrar su verdadero <i>OASIS</i>.
+                    </div>
                 </div>
-                <iframe className="videoYoutube" src="https://www.youtube.com/watch?v=2wesHzNkLEE&feature=youtu.be"/>
+                <iframe className="videoYoutube" src="https://www.youtube.com/embed/2wesHzNkLEE"/>
 
 
                 <button className="pbutton" onClick={() => {window.scroll(0, 1100);}}>
