@@ -22,8 +22,6 @@ class Proyecto extends Component{
                     </div>
                 </div>
                 <iframe className="videoYoutube" src="https://www.youtube.com/embed/2wesHzNkLEE"/>
-
-
                 <button className="pbutton" onClick={() => {window.scroll(0, 1100);}}>
                     <img src={btn} alt="loding..."/>
                 </button>
