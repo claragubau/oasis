@@ -147,7 +147,7 @@ export default class SphereComponent extends Component {
                             <img src={logo} alt="loading..." className="mobilelogo"/>
                             <p>EL CONTENIDO DE ESTA PÁGINA WEB ES EXCLUSIVO PARA ORDENADOR</p>
                         </div>
-                        <fieldset style={{zIndex:2, heigh:'70vh', marginBottom:'30vh'}}/>
+                        <fieldset style={{zIndex:2, marginBottom:'25vh'}}/>
                         <div style={this.divStyle} ref={this.sphereDiv} id="viewer">
                             <div ref={node => this.subDiv = node} style={this.divStyle}/>
                         </div>

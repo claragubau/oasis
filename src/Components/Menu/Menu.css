@@ -106,3 +106,24 @@ fieldset{
   opacity: 0.8;
   z-index: -5;
 }
+
+.imageBox{
+  position: relative;
+  float: right;
+}
+
+.imageBox .hoverImg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg{
+  display: block;
+}
+
+.igg{
+  height: 3.75vh;
+  margin-right: 3vw;
+}

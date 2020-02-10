@@ -3,6 +3,7 @@ import { HamburgerButton } from 'react-hamburger-button';
 import './Menu.css'
 import logo from '../../images/LOGOTIP_WEB.png'
 import ig from '../../images/igb.png'
+import hoverig from '../../images/INSTA_HOVER.png'
 class Menu extends Component{ 
 
     constructor() {
@@ -31,9 +32,20 @@ class Menu extends Component{
                 <fieldset style={{marginTop:"7px", position:"absolute", zIndex:-15}}/>
                 <div className="esquerra">
                     <img src={logo} alt="loading" className="lgo"/>
-                    {/* <div><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/oasis.elproyecto/" class="button"> */}
-                    {/* <img src={ig} alt="loading"/>
-                        </a></div> */}
+
+                        {/* <a target="_blank" rel="noopener noferrer" href="https://www.instagram.com/oasis.elproyecto/">
+                            <img src={ig} alt="loding..."/>
+                        </a> */}
+                    <div className="imageBox">
+                        <div className="imageInn">
+                            <img src={ig} alt="loading" className="igg"/>
+                        </div>
+                        <div className="hoverImg">
+                            <a target="_blank" rel="noopener noferrer" href="https://www.instagram.com/oasis.elproyecto/">
+                                <img src={hoverig} alt="loding..." className="igg"/>
+                            </a>
+                        </div>
+                    </div>
                 </div>    
             </div>
         </div>
