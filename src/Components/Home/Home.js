@@ -138,7 +138,7 @@ export default class SphereComponent extends Component {
     }
 
     render() {
-        let isMobile = window.innerWidth < 1000;
+        let isMobile = window.innerWidth < 800;
         if(isMobile){
             return(
                 <div>
