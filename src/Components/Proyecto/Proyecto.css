@@ -87,19 +87,17 @@ legend{
   font-style: italic;
 }
 
-.pbutton{
+.btncss{
   animation: MoveUpDown 1.25s linear infinite;
   border: none;
   text-decoration: none;
   background: none;
-  margin-left: 57vw;
-  margin-top: 5vh;
-  position: relative;
+  margin-bottom: -7.5vh;
+  left: 55vw;
+  position: absolute;
+  height: 35px;
 }
-.pbutton img{
-  width: 3.5vw;
-  height: auto;
-}
+
 
 @keyframes MoveUpDown {
   0%, 100% {

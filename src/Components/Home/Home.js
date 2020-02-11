@@ -159,11 +159,11 @@ export default class SphereComponent extends Component {
             console.log('sphere')
             return (
             <div>
+                <Menu/>
                 <div className="ending">
-                    <img src={logo} alt="loading..."/>
+                    <img src={logo} alt="loading..." className="logoOasis"/>
                     <p>Encuentra los 5 elementos escondidos</p>
                 </div>
-                <Menu/>
                 <fieldset style={{zIndex:2}}/>
                 <div style={this.divStyle} ref={this.sphereDiv} id="viewer">
                     <div ref={node => this.subDiv = node} style={this.divStyle}/>

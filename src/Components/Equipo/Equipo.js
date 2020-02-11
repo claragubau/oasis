@@ -17,7 +17,9 @@ function Equipo(){
             <Menu/>
             <fieldset>
                 <legend align="center">EQUIPO</legend>
-                <div style={{position:"relative"}}><a target="_blank" rel="noopener noreferrer" href="https://youtu.be/2wesHzNkLEE" class="ebutton"><i><b>MAKING OF</b></i></a></div>
+                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/2wesHzNkLEE" class="ebutton">
+                    <i><b>MAKING OF</b></i>
+                </a>
             </fieldset>
             <div className="grid-container">
                 <div className="column">
@@ -61,9 +63,7 @@ function Equipo(){
 
                     </div>
                 </div>
-                <button className="bdown" onClick={() => {window.scroll(0, 1000);}}>
-                    <img src={btn} alt="loding..."/>
-                </button>
+                <img src={btn} alt="loding..." className="bdown" onClick={() => {window.scroll(0, 1000);}}/>
             </div>
 
             <div className="backequipo">

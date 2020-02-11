@@ -159,9 +159,11 @@ legend{
   border-radius: 5vh;
 
   font-size: 1.3vw;
-  margin-top: 72vh;
-  margin-bottom: 4.9vh;
-  margin-left: 33.5vw;
+  /* margin-left: 50%;
+  margin-right: 50%; */
+
+  margin-top: 72.6vh;
+  margin-left: 33vw;
 
   z-index: 0;
   position: relative;
@@ -189,8 +191,5 @@ legend{
   margin-bottom: 5vh;
   position: relative;
   z-index: 25;
-}
-.bdown img{
-  width: 5.5vw;
-  height: auto;
+  width: 6.5vw;
 }
