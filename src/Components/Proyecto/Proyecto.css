@@ -13,7 +13,7 @@
 .sinopsisAll{
   margin-left: 35vw;
   width: 20vw;
-  margin-top: 20vh;
+  margin-top: 32.5vh;
 }
 
 .sinopsis{
@@ -92,8 +92,8 @@ legend{
   border: none;
   text-decoration: none;
   background: none;
-  margin-bottom: -7.5vh;
-  left: 55vw;
+  margin-bottom: -9vh;
+  left: 58vw;
   position: absolute;
   height: 35px;
 }
