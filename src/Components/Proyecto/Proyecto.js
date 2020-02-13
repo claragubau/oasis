@@ -21,7 +21,7 @@ class Proyecto extends Component{
                         para vivir la aceptación y encontrar su verdadero <i>OASIS</i>.
                     </div>
                 </div>
-                <iframe src="https://www.youtube.com/embed/2wesHzNkLEE" title="trailer" className="videoYoutube"></iframe>
+                <iframe src="https://www.youtube.com/embed/gVJSk-tqNno" title="trailer" className="videoYoutube"></iframe>
                 <img src={btn} alt="loding..." className="btncss" onClick={() => {window.scroll(0, 1100);}}/>
             </div>
         </div>

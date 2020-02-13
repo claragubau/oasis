@@ -17,7 +17,7 @@ function Equipo(){
             <Menu/>
             <fieldset>
                 <legend align="center">EQUIPO</legend>
-                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/gVJSk-tqNno" class="ebutton">
+                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/2wesHzNkLEE" class="ebutton">
                     <i><b>MAKING OF</b></i>
                 </a>
             </fieldset>
